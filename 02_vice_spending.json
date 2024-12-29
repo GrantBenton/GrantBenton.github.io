@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
-      "url": "https://raw.githubusercontent.com/mclass-user/mclass-user.github.io/refs/heads/main/vices_spending.csv"
+      "url": "https://github.com/GrantBenton/GrantBenton.github.io/blob/main/vices_spending.csv"
     },
     "mark": {"type": "line"},
     "width": 500,
