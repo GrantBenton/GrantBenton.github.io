@@ -1,4 +1,4 @@
-Entity,ISO3,Year,Gender,Age,Population,Start Age
+Country,ISO3,Year,Gender,Age,Population,Start Age
 Hungary,HUN,1950,Male,0-4,421143,0
 Hungary,HUN,1951,Male,0-4,436984,0
 Hungary,HUN,1952,Male,0-4,445508,0
