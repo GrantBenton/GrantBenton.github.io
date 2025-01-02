@@ -1,4 +1,4 @@
-Country,Code,Year,MedianAge
+Country,ISO_A3,Year,MedianAge
 Afghanistan,AFG,1950,18.395
 Afghanistan,AFG,1951,18.37
 Afghanistan,AFG,1952,18.333
