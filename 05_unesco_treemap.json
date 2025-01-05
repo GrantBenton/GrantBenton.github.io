@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/05_unesco_heritage_sites_by_country.csv"
+  },
+  "mark": {"type": "rect", "tooltip": true},
+  "encoding": {
+    "x": {
+      "field": "Country",
+      "type": "nominal",
+      "axis": null
+    },
+    "y": {
+      "field": "Total sites",
+      "type": "quantitative",
+      "title": "Total UNESCO Sites"
+    },
+    "color": {
+      "field": "Country",
+      "type": "nominal",
+      "legend": null
+    },
+    "tooltip": [
+      {"field": "Country", "type": "nominal", "title": "Country"},
+      {"field": "Total sites", "type": "quantitative", "title": "Total Sites"}
+    ]
+  },
+  "title": "UNESCO World Heritage Sites by Country",
+  "width": 800,
+  "height": 400
+}
