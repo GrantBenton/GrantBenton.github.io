@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Average price trends over time.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/09_region_trend.csv"
+  },
+  "mark": {
+    "type": "line",
+    "tooltip": true
+  },
+  "width": 400,
+  "height": 400,
+  "encoding": {
+    "x": {
+      "field": "month",
+      "type": "ordinal",
+      "title": "Month",
+      "axis": {
+        "labelAngle": 0,
+        "labelExpr": "datum.label == 1 ? 'Jan' : datum.label == 2 ? 'Feb' : datum.label == 3 ? 'Mar' : datum.label == 4 ? 'Apr' : datum.label == 5 ? 'May' : datum.label == 6 ? 'Jun' : datum.label == 7 ? 'Jul' : datum.label == 8 ? 'Aug' : datum.label == 9 ? 'Sep' : datum.label == 10 ? 'Oct' : datum.label == 11 ? 'Nov' : 'Dec'"
+      }
+    },
+    "y": {
+      "field": "p_mean",
+      "type": "quantitative",
+      "title": "Average Price",
+      "scale": {"zero": false}
+    },
+    "color": {
+      "field": "year",
+      "type": "nominal",
+      "scale": {"scheme": "category10"},
+      "legend": null
+    },
+    "tooltip": [
+      {"field": "year", "type": "nominal", "title": "Year"},
+      {"field": "month", "type": "ordinal", "title": "Month"},
+      {"field": "p_mean", "type": "quantitative", "title": "Average Price"}
+    ]
+  },
+  "title": {
+    "text": "Monthly Average Price Trends Over Time",
+    "subtitle": "Source: Long Run Prices Database (LRPD). See Davies (2001)",
+    "anchor": "start"
+  }
+}
