@@ -1,0 +1,159 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Cairo",
+        "name_ar": "القاهرة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.2357, 30.0444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Giza",
+        "name_ar": "الجيزة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.2089, 29.9977]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Alexandria",
+        "name_ar": "الإسكندرية"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.9187, 31.2001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Luxor",
+        "name_ar": "الأقصر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6396, 25.6872]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Aswan",
+        "name_ar": "أسوان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.8998, 24.0889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Hurghada",
+        "name_ar": "الغردقة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.7992, 27.2579]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Sharm El Sheikh",
+        "name_ar": "شرم الشيخ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3299, 27.9158]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Port Said",
+        "name_ar": "بورسعيد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.2922, 31.2653]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Ismailia",
+        "name_ar": "الإسماعيلية"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.2734, 30.5965]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Suez",
+        "name_ar": "السويس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5498, 29.9668]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Faiyum",
+        "name_ar": "الفيوم"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.8418, 29.3082]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Minya",
+        "name_ar": "المنيا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.7561, 28.1099]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Assiut",
+        "name_ar": "أسيوط"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.1837, 27.1791]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_en": "Qena",
+        "name_ar": "قنا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.7183, 26.1551]
+      }
+    }
+  ]
+}
