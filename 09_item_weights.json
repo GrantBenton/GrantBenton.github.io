@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Distribution of item weights.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/09_item_weights.csv"
+  },
+  "mark": "bar",
+  "width": 600,
+  "height": 400,
+  "encoding": {
+    "x": {
+      "field": "coicop_weight",
+      "type": "quantitative",
+      "bin": {"step": 5},
+      "title": "Item Weight",
+      "axis": {
+        "grid": false,
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative",
+      "title": "Count",
+      "axis": {
+        "grid": true,
+        "gridColor": "#e0e0e0"
+      }
+    }
+  },
+  "title": {
+    "text": "Distribution of Item Weights",
+    "subtitle": "Histogram showing the frequency distribution of item weights",
+    "anchor": "start"
+  }
+}
