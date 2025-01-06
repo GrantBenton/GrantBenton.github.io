@@ -1,0 +1,28 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/07_simplified_egypt_subdivisions.geojson",
+      "format": {"property": "features"}
+    },
+    "view": {"stroke": null},
+    "background": null,
+    "width": 400,
+    "height": 550,
+    "title": {
+      "text": "Egypt",
+      "anchor": "start",
+      "color": "black",
+      "fontSize": 16,
+      "subtitle": "Source: https://gadm.org/maps/EGY.html",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "subtitleColor": "black"
+    },
+    "projection": {"type": "mercator"},
+    "mark": {
+      "type": "geoshape",
+      "fill": "#e9e9e9",
+      "stroke": "#000",
+      "strokeWidth": 0.7
+    },
+  }
