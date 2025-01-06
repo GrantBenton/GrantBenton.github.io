@@ -6,7 +6,7 @@
   },
   "mark": "bar",
   "width": 600,
-  "height": 400,
+  "height": 300,
   "encoding": {
     "x": {
       "field": "coicop_weight",

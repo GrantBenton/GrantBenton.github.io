@@ -9,11 +9,11 @@
       "subtitleFontSize": 10
     },
     "data": {
-      "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/07_cleaned_unique_egypt_night_lights.geojson",
+      "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/07_final_final_egypt_lights.geojson",
       "format": {"property": "features"}
     },
-    "width": 500,
-    "height": 600,
+    "width": 600,
+    "height": 300,
     "projection": {"type": "mercator"},
     "mark": {
       "type": "geoshape",
