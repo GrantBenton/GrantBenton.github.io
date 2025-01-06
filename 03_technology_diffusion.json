@@ -1,40 +1,44 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {
-    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/03_technology-infrastructure-diffusion-uk.csv"
-  },
-  "transform": [
-    {
-      "filter": "datum['United Kingdom'] != null"
-    }
-  ],
-  "mark": "line",
-  "encoding": {
-    "x": {
-      "field": "Year",
-      "type": "temporal",
-      "title": "Year"
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/03_technology-infrastructure-diffusion-uk.csv"
     },
-    "y": {
-      "field": "United Kingdom",
-      "type": "quantitative",
-      "scale": {
-        "type": "log"
+    "transform": [
+      {
+        "filter": "datum['United Kingdom'] != null"
+      }
+    ],
+    "mark": "line",
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "title": "Year"
       },
-      "title": "Value (log scale)"
+      "y": {
+        "field": "United Kingdom",
+        "type": "quantitative",
+        "scale": {
+          "type": "log"
+        },
+        "title": "Value (log scale)"
+      },
+      "color": {
+        "field": "Entity",
+        "type": "nominal",
+        "title": "Technology/Infrastructure"
+      },
+      "tooltip": [
+        {"field": "Entity", "type": "nominal", "title": "Technology/Infrastructure"},
+        {"field": "Year", "type": "temporal", "timeUnit": "year", "title": "Year"},
+        {"field": "United Kingdom", "type": "quantitative", "title": "Value (log scale)"}
+      ]
     },
-    "color": {
-      "field": "Entity",
-      "type": "nominal",
-      "title": "Technology/Infrastructure"
+    "title": {
+      "text": "Technology and Infrastructure Diffusion in the United Kingdom",
+      "subtitle": "Historical Cross Country Technology Adoption Dataset | Source: Comin & Hobijn (2004)"
     },
-    "tooltip": [
-      {"field": "Entity", "type": "nominal", "title": "Technology/Infrastructure"},
-      {"field": "Year", "type": "temporal", "timeUnit": "year", "title": "Year"},
-      {"field": "United Kingdom", "type": "quantitative", "title": "Value (log scale)"}
-    ]
-  },
-  "title": "Technology and Infrastructure Diffusion in the United Kingdom",
-  "width": 800,
-  "height": 500
-}
+    "width": 700,
+    "height": 500
+  }
+  
