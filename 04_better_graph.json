@@ -1,0 +1,52 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Impact of Bush Tax Cuts Expiration",
+      "subtitle": "Top Tax Rate Before and After January 1, 2013",
+      "fontSize": 18,
+      "subtitleFontSize": 14,
+      "anchor": "start"
+    },
+    "data": {
+      "values": [
+        {"date": "Now", "tax_rate": 35},
+        {"date": "Jan 1, 2013", "tax_rate": 39.6}
+      ]
+    },
+    "mark": {
+      "type": "bar",
+      "width": 60
+    },
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "ordinal",
+        "axis": {
+          "title": "Time Period",
+          "labelAngle": 0
+        }
+      },
+      "y": {
+        "field": "tax_rate",
+        "type": "quantitative",
+        "axis": {
+          "title": "Top Tax Rate (%)",
+          "grid": true
+        }
+      },
+      "color": {"field": "date", "type": "nominal", "legend": null}
+    },
+    "config": {
+      "view": {"stroke": "transparent"},
+      "axis": {
+        "labelFontSize": 12,
+        "titleFontSize": 14
+      }
+    },
+    "width": 400,
+    "height": 300,
+    "description": "A bar chart illustrating the change in top tax rates if the Bush Tax Cuts expire.",
+    "source": {
+      "text": "Source: FOX Business (Original Visualization)"
+    }
+  }
