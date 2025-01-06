@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/23_Hungary_Singapore_Fertility.csv"
+  },
+  "transform": [
+    {"filter": "datum.Country === 'Singapore'"}
+  ],
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal", "title": "Year"},
+        "y": {"field": "Fertility_Rate", "type": "quantitative", "title": "Fertility Rate", "scale": {"domain": [0, 6]}},
+        "color": {"value": "red"},
+        "tooltip": [
+          {"field": "Year", "type": "temporal", "title": "Year"},
+          {"field": "Fertility_Rate", "type": "quantitative", "title": "Fertility Rate"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"Year": "1987", "Fertility_Rate": 2.0, "Policy": "Launch of 'Have Three or More' Campaign"},
+          {"Year": "2001", "Fertility_Rate": 1.5, "Policy": "Introduction of Baby Bonus Scheme"},
+          {"Year": "2008", "Fertility_Rate": 1.3, "Policy": "Marriage and Parenthood Package"},
+          {"Year": "2013", "Fertility_Rate": 1.2, "Policy": "Expansion of Parenthood Support"}
+        ]
+      },
+      "mark": "point",
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal"},
+        "y": {"field": "Fertility_Rate", "type": "quantitative"},
+        "color": {"value": "blue"},
+        "tooltip": [
+          {"field": "Year", "type": "temporal", "title": "Year"},
+          {"field": "Fertility_Rate", "type": "quantitative", "title": "Fertility Rate"},
+          {"field": "Policy", "type": "nominal", "title": "Policy"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "rule", "strokeDash": [4, 4], "color": "black"},
+      "encoding": {
+        "y": {"datum": 2.1, "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5, "color": "black"},
+      "encoding": {
+        "y": {"datum": 2.1, "type": "quantitative"},
+        "x": {"datum": "1950", "type": "temporal"},
+        "text": {"value": "Replacement Rate"}
+      }
+    }
+  ],
+  "title": "Fertility Rate in Singapore (1950-2023)",
+  "config": {
+    "view": {"stroke": "transparent"},
+    "title": {"fontSize": 16}
+  }
+}
