@@ -1,0 +1,41 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/03_renewable_energy_consumption.csv"
+  },
+  "title": {
+    "text": "Renewable Electricity Generation in the United Kingdom",
+    "subtitle": "Source: Energy Institute - Statistical Review of World Energy (2024) | Graph inspired by Our World in Data",
+    "subtitleFontSize": 12,
+    "anchor": "start"
+  },
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "Generation (TWh)",
+      "type": "quantitative",
+      "stack": "zero",
+      "title": "Electricity Generation (TWh)"
+    },
+    "color": {
+      "field": "Renewable Source",
+      "type": "nominal",
+      "scale": {
+        "scheme": "category10"
+      },
+      "title": "Renewable Source"
+    }
+  },
+  "config": {
+    "axis": {
+      "grid": true
+    }
+  }
+}

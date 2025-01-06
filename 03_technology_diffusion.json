@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/03_technology-infrastructure-diffusion-uk.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum['United Kingdom'] != null"
+    }
+  ],
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "United Kingdom",
+      "type": "quantitative",
+      "scale": {
+        "type": "log"
+      },
+      "title": "Value (log scale)"
+    },
+    "color": {
+      "field": "Entity",
+      "type": "nominal",
+      "title": "Technology/Infrastructure"
+    },
+    "tooltip": [
+      {"field": "Entity", "type": "nominal", "title": "Technology/Infrastructure"},
+      {"field": "Year", "type": "temporal", "timeUnit": "year", "title": "Year"},
+      {"field": "United Kingdom", "type": "quantitative", "title": "Value (log scale)"}
+    ]
+  },
+  "title": "Technology and Infrastructure Diffusion in the United Kingdom",
+  "width": 800,
+  "height": 500
+}
