@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Population Distribution Visualization</title>
+    <link rel="stylesheet" type="text/css" href="00stylesheet.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 <body>
-    Project page
+    <h1 class="big">Population Distribution Dashboard</h1>
+    <p class="small" style="color: darkblue;">
+        Explore population trends by age groups over time.
+    </p>
+
+    <div class="container">
+        <h2>Chart 1: Population Pyramid</h2>
+        <figure id="population_pyramid"></figure>
+    </div>
+
+    <div class="container">
+        <h2>Chart 2: Stacked Area Chart - Hungary</h2>
+        <figure id="stacked_area_hungary"></figure>
+    </div>
+
+    <div class="container">
+        <h2>Chart 3: Stacked Area Chart - Singapore</h2>
+        <figure id="stacked_area_singapore"></figure>
+    </div>
+
+    <div class="container">
+        <h2>Chart 4: Fertility Trends - Hungary</h2>
+        <figure id="fertility_hungary"></figure>
+    </div>
+
+    <div class="container">
+        <h2>Chart 5: Fertility Trends - Singapore</h2>
+        <figure id="fertility_singapore"></figure>
+    </div>
+
+    <script>
+        vegaEmbed('#population_pyramid', "21_Population_Pyramid.json");
+        vegaEmbed('#stacked_area_hungary', "22_stacked_area_chart_hungary.json");
+        vegaEmbed('#stacked_area_singapore', "22_stacked_area_chart_singapore.json");
+        vegaEmbed('#fertility_hungary', "23_fertility_hungary.json");
+        vegaEmbed('#fertility_singapore', "23_fertility_singapore.json");
+    </script>
 </body>
 </html>
