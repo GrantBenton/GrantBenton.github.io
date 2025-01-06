@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Working and Dependent Population in Singapore",
+    "subtitle": ["Source: UN Population Division"],
+    "fontSize": 16,
+    "subtitleFontSize": 10,
+    "fontWeight": "bold",
+    "anchor": "start"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/22_Population_Dependency_Singapore.csv"
+  },
+  "transform": [
+    {
+      "calculate": "indexof(['15-64', '0-14', '65+'], datum['Age Group'])",
+      "as": "stack_order"
+    }
+  ],
+  "mark": {
+    "type": "area",
+    "tooltip": true
+  },
+  "width": "container",
+  "height": 400,
+  "encoding": {
+    "x": {
+      "field": "Time",
+      "type": "temporal",
+      "title": "Year",
+      "timeUnit": "year"
+    },
+    "y": {
+      "field": "Percentage",
+      "type": "quantitative",
+      "stack": "normalize",
+      "title": "Total Population by Age Group (%)"
+    },
+    "color": {
+      "field": "Age Group",
+      "type": "nominal",
+      "title": "Age Group",
+      "scale": {
+        "domain": ["65+", "0-14", "15-64"],
+        "range": ["#1f77b4", "#87CEEB", "#ba45f5"]
+      }
+    },
+    "order": {
+      "field": "stack_order",
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {
+        "field": "Time",
+        "type": "temporal",
+        "title": "Year",
+        "timeUnit": "year"
+      },
+      {
+        "field": "Age Group",
+        "type": "nominal",
+        "title": "Age Group"
+      },
+      {
+        "field": "Percentage",
+        "type": "quantitative",
+        "title": "Total Population by Age Group (%)",
+        "format": ".0%"
+      }
+    ]
+  },
+  "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 14
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 14
+    },
+    "title": {
+      "fontSize": 16,
+      "fontWeight": "bold",
+      "anchor": "start"
+    }
+  }
+}
