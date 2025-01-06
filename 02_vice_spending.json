@@ -4,7 +4,7 @@
       "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/02_vices_spending.csv"
     },
     "mark": {"type": "line"},
-    "width": "container",
+    "width": 600,
     "height": 300,
     "title": {
       "text": "Vice spending",
