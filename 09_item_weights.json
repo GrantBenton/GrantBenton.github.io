@@ -30,7 +30,7 @@
   },
   "title": {
     "text": "Distribution of Item Weights",
-    "subtitle": "Histogram showing the frequency distribution of item weights",
+    "subtitle": "Source: Long Run Prices Database (LRPD). See Davies (2001)",
     "anchor": "start"
   }
 }
