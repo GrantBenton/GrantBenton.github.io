@@ -1,24 +1,60 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Average price trends over time.",
+  "description": "Average price trends over time with hover highlighting and enhanced tooltips.",
   "data": {
     "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/09_region_trend.csv"
   },
+  "transform": [
+    {
+      "window": [{"op": "mean", "field": "p_mean", "as": "avg_p_mean"}],
+      "frame": [null, null],
+      "groupby": ["month"]
+    },
+    {
+      "calculate": "datum.p_mean > datum.avg_p_mean ? 'Above Average' : 'Below Average'",
+      "as": "above_below"
+    },
+    {
+      "calculate": "datum.month == 1 ? 'January' : datum.month == 2 ? 'February' : datum.month == 3 ? 'March' : datum.month == 4 ? 'April' : datum.month == 5 ? 'May' : datum.month == 6 ? 'June' : datum.month == 7 ? 'July' : datum.month == 8 ? 'August' : datum.month == 9 ? 'September' : datum.month == 10 ? 'October' : datum.month == 11 ? 'November' : 'December'",
+      "as": "month_name"
+    }
+  ],
   "mark": {
     "type": "line",
-    "tooltip": true
+    "tooltip": true,
+    "strokeWidth": 3
   },
   "width": 600,
   "height": 300,
+  "selection": {
+    "hover": {
+      "type": "single",
+      "fields": ["year"],
+      "on": "mouseover",
+      "empty": "none",
+      "clear": "mouseout"
+    }
+  },
   "encoding": {
     "x": {
-      "field": "month",
+      "field": "month_name",
       "type": "ordinal",
       "title": "Month",
-      "axis": {
-        "labelAngle": 0,
-        "labelExpr": "datum.label == 1 ? 'Jan' : datum.label == 2 ? 'Feb' : datum.label == 3 ? 'Mar' : datum.label == 4 ? 'Apr' : datum.label == 5 ? 'May' : datum.label == 6 ? 'Jun' : datum.label == 7 ? 'Jul' : datum.label == 8 ? 'Aug' : datum.label == 9 ? 'Sep' : datum.label == 10 ? 'Oct' : datum.label == 11 ? 'Nov' : 'Dec'"
-      }
+      "sort": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ],
+      "axis": {"labelAngle": 0}
     },
     "y": {
       "field": "p_mean",
@@ -32,15 +68,30 @@
       "scale": {"scheme": "category10"},
       "legend": null
     },
+    "opacity": {
+      "condition": {"selection": "hover", "value": 1},
+      "value": 0.1
+    },
     "tooltip": [
-      {"field": "year", "type": "nominal", "title": "Year"},
-      {"field": "month", "type": "ordinal", "title": "Month"},
-      {"field": "p_mean", "type": "quantitative", "title": "Average Price"}
+      {"field": "year", "type": "quantitative", "title": "Year", "format": ".0f"},
+      {"field": "month_name", "type": "ordinal", "title": "Month"},
+      {"field": "p_mean", "type": "quantitative", "title": "Average Price", "format": ".2f"},
+      {
+        "field": "avg_p_mean",
+        "type": "quantitative",
+        "title": "Overall Monthly Average",
+        "format": ".2f"
+      },
+      {
+        "field": "above_below",
+        "type": "nominal",
+        "title": "Performance"
+      }
     ]
   },
   "title": {
     "text": "Monthly Average Price Trends Over Time",
-    "subtitle": "Source: Long Run Prices Database (LRPD). See Davies (2001)",
+    "subtitle": "Source: Long Run Prices Database (LRPD). See Davies (2001).",
     "anchor": "start"
   }
 }
