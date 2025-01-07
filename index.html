@@ -27,17 +27,17 @@
 <!-- The body tag contains the elements that visitors to our page will see. -->
     <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
         <!-- This is a header, it is the largest text on the page -->
-        Grant Benton
+        Candidate 37637
     </h1>
     <p style="margin-top: 0px; color: darkblue">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
-        Grant Benton | <a href="https://www.linkedin.com/in/williamgrantbenton"
-            href="https://grantbenton.github.io">GitHub</a> |
+        Grant Benton | <a href="https://www.linkedin.com/in/williamgrantbenton">Linkedin</a> |
+            <a href="https://grantbenton.github.io">GitHub</a> |
     <a href="https://grantbenton.github.io/project">Project</a>
     </p>
 
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
-        This page acts as your portfolio of charts. You can use it as a good starting point to display your work but make sure to customise it to make it your own, or even start from scratch.  
+        Welcome to my page! Here is a coding portfolio for PP434 at LSE.
     </h3>
 
     <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
@@ -66,13 +66,8 @@
     <section>
         <div class="chart-description">
             <h2>Coding Challenge 3: Building. Create your own visualisations</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Incomplete. Set out (not more than 25 words) a topic that was discussed. Comment (not more than 25 words) on what you find. Your commentary should be placed near the chart in a way that makes it intuitive to your site’s users (i.e., above, below, or to the side).
-
-                In the next two graphs, I hope to show 
-
-
-                Renewable = How can we build a sustainable planet
+            <p>
+                In the next two graphs, I connect Britain's productivity challenges and sustainability output. Slower adoption of robotics contrasts with rapid renewable energy adoption and growth, particularly in wind and solar since 2000. Renewable energy growth could enhance productivity by reducing energy costs and fostering innovation.
 
             </p>
         </div>
@@ -83,8 +78,7 @@
     <section>
         <div class="chart-description">
             <h2>Coding Challenge 4: Building. Create your own visualisations</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Incomplete. Now improve their chart. Change the titles, axes, colours and other elements of the chart specification to make it better. Explain briefly (not more than 25 words) what you have done.
+            <p> I have added a better title, subtitle, and properly labeled both the x and y axis. Lastly, I have started the y axis at zero. 
             </p>
         </div>
         <div id="bad_chart">
@@ -116,8 +110,7 @@
     <section>
         <div class="chart-description">
             <h2>Coding Challenge 7:</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Incomplete
+            <p>
             </p>
         </div>
         <figure id="borders"></figure>
@@ -127,8 +120,7 @@
     <section>
         <div class="chart-description">
             <h2>Coding Challenge 8: Analytics charts</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Done
+            <p>
             </p>
         </div>
         <figure id='hungary_non_project'></figure> 
@@ -138,8 +130,7 @@
     <section>
         <div class="chart-description">
             <h2>Coding Challenge 9: Big Data</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Incomplete. Explain, in no more than 50 words, what you have done.
+            <p> The Long Run Prices Database (LRPD) was cleaned by removing missing values and aggregating data into monthly averages. The 09_item_weights.json histogram shows the frequency distribution of item weights. The 09_region_trend.json line chart highlights average price trends over months, comparing annual variations for each year to observe seasonal and monthly patterns.
             </p>
         </div>
         <figure id="region_trend"></figure> 
@@ -148,12 +139,11 @@
 
     <section>
         <div class="chart-description">
-            <h2>Coding Challenge 10: Building. Create your own visualisations</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Incomplete
-            </p>
+            <h2>Coding Challenge 10: Option 2. Interactive Visualisations</h2>
+            <p> </p>
         </div>
-        <figure></figure> 
+        <figure id="crop"></figure> 
+        <figure id="color"></figure>
     </section>
 
     <!-- Do you want to add more sections? -->
@@ -191,6 +181,9 @@
 
         vegaEmbed('#region_trend', "09_region_trend.json");
         vegaEmbed('#item_weights', "09_item_weights.json");
+        
+        vegaEmbed('#crop',"10_Crop_Yield.json");
+        vegaEmed('#color', "10_colour_fertility.json");
 
 
     </script>
