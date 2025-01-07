@@ -13,9 +13,6 @@
   "data": {
     "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/10_vega_lite_fertility_data1.csv"
   },
-  "transform": [
-    {"filter": "datum.Country === 'Singapore'"}
-  ],
   "params": [
     {
       "name": "colourPick",
