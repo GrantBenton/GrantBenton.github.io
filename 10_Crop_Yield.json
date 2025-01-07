@@ -1,0 +1,62 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "World Crop Yield Trends Over Time",
+    "subtitle": "Source: Food and Agriculture Organization of the United Nations | Inspired by Our World in Data ",
+    "fontSize": 16,
+    "subtitleFontSize": 10
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/10_Crop_Yield_Categories.csv",
+    "format": { "type": "csv" }
+  },
+  "mark": "line",
+  "width": 600,
+  "height": 300,
+  "params": [
+    {
+      "name": "CategoryFilter",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": ["All", "Cereals/Grains", "Legumes", "Root Crops", "Fruits", "Other"],
+        "labels": ["All Categories", "Cereals/Grains", "Legumes", "Root Crops", "Fruits", "Other"]
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "CategoryFilter == 'All' || datum.Category == CategoryFilter"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": { "title": "Year" }
+    },
+    "y": {
+      "field": "Yield (tonnes per hectare)",
+      "type": "quantitative",
+      "axis": { "title": "Yield (tonnes per hectare)" }
+    },
+    "color": {
+      "field": "Crop",
+      "type": "nominal",
+      "legend": { "title": "Crop Type" }
+    },
+    "tooltip": [
+      { "field": "Year", "type": "temporal", "title": "Year", "timeUnit": "year" },
+      { "field": "Yield (tonnes per hectare)", "type": "quantitative", "title": "Yield (tonnes per hectare)", "format": ".2f" },
+      { "field": "Crop", "type": "nominal", "title": "Crop" },
+      { "field": "Category", "type": "nominal", "title": "Category" }
+    ]
+  },
+  "config": {
+    "view": { "stroke": "transparent" },
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 14
+    }
+  }
+}
