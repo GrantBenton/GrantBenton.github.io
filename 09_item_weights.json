@@ -1,36 +1,93 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Distribution of item weights.",
   "data": {
     "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/09_item_weights.csv"
   },
-  "mark": "bar",
-  "width": 600,
-  "height": 300,
-  "encoding": {
-    "x": {
-      "field": "coicop_weight",
-      "type": "quantitative",
-      "bin": {"step": 5},
-      "title": "Item Weight",
-      "axis": {
-        "grid": false,
-        "labelAngle": 0
+  "vconcat": [
+    {
+      "title": {
+        "text": "Distribution of Item Weights",
+        "subtitle": "Source: Long Run Prices Database (LRPD). See Davies (2001)",
+        "anchor": "start",
+        "fontSize": 18,
+        "subtitleFontSize": 10
+      },
+      "mark": "bar",
+      "width": 600,
+      "height": 300,
+      "encoding": {
+        "x": {
+          "field": "coicop_weight",
+          "type": "quantitative",
+          "bin": {"step": 5},
+          "title": "Item Weight",
+          "axis": {
+            "grid": false,
+            "labelAngle": 0
+          }
+        },
+        "y": {
+          "aggregate": "count",
+          "type": "quantitative",
+          "title": "Count",
+          "axis": {
+            "grid": true,
+            "gridColor": "#e0e0e0"
+          }
+        }
+      },
+      "selection": {
+        "brush": {
+          "type": "interval",
+          "encodings": ["x"]
+        }
       }
     },
-    "y": {
-      "aggregate": "count",
-      "type": "quantitative",
-      "title": "Count",
-      "axis": {
-        "grid": true,
-        "gridColor": "#e0e0e0"
+    {
+      "transform": [
+        {
+          "filter": {"selection": "brush"}
+        },
+        {
+          "aggregate": [
+            {"op": "count", "as": "selected_count"},
+            {"op": "mean", "field": "coicop_weight", "as": "selected_mean"},
+            {"op": "median", "field": "coicop_weight", "as": "selected_median"}
+          ]
+        },
+        {
+          "calculate": "'Count: ' + datum.selected_count + ', Mean: ' + format(datum.selected_mean, '.2f') + ', Median: ' + format(datum.selected_median, '.2f')",
+          "as": "statistics_text"
+        }
+      ],
+      "mark": "text",
+      "width": 600,
+      "height": 50,
+      "encoding": {
+        "text": {
+          "field": "statistics_text",
+          "type": "nominal"
+        },
+        "x": {"value": 300},
+        "y": {"value": 20},
+        "align": {"value": "center"},
+        "fontSize": {"value": 14}
+      }
+    },
+    {
+      "mark": "text",
+      "width": 600,
+      "height": 30,
+      "encoding": {
+        "text": {
+          "value": "Use the brush to select a range of item weights and view statistics for the selection above."
+        },
+        "x": {"value": 300},
+        "y": {"value": 10},
+        "align": {"value": "center"},
+        "fontSize": {"value": 12},
+        "color": {"value": "gray"}
       }
     }
-  },
-  "title": {
-    "text": "Distribution of Item Weights",
-    "subtitle": "Source: Long Run Prices Database (LRPD). See Davies (2001)",
-    "anchor": "start"
-  }
+  ]
 }
