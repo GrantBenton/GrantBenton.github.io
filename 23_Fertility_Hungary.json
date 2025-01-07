@@ -1,90 +1,125 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 400,
-  "height": 300,
-  "data": {
-    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/vega_lite_fertility_data.csv"
-  },
-  "transform": [
-    {"filter": "datum.Country === 'Hungary'"}
-  ],
-  "layer": [
-    {
-      "mark": "line",
-      "encoding": {
-        "x": {"field": "Year", "type": "temporal", "title": "Year"},
-        "y": {"field": "Fertility_Rate", "type": "quantitative", "title": "Fertility Rate", "scale": {"domain": [0, 7]}},
-        "color": {
-          "field": "Type",
-          "type": "nominal",
-          "scale": {
-            "domain": ["Fertility Rate", "Pro-Natalist Policy"],
-            "range": ["blue", "green"]
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/vega_lite_fertility_data.csv"
+    },
+    "transform": [{"filter": "datum.Country === 'Hungary'"}],
+    "layer": [
+      {
+        "mark": "line",
+        "encoding": {
+          "x": {"field": "Year", "type": "temporal", "title": "Year"},
+          "y": {
+            "field": "Fertility_Rate",
+            "type": "quantitative",
+            "title": "Fertility Rate",
+            "scale": {"domain": [0, 7]}
           },
-          "legend": {"title": "Legend"}
+          "color": {
+            "value": "blue"  // Static color, no legend generated
+          },
+          "tooltip": [
+            {
+              "field": "Year_Only",
+              "type": "ordinal",
+              "title": "Year"
+            },
+            {
+              "field": "Fertility_Rate",
+              "type": "quantitative",
+              "title": "Fertility Rate"
+            }
+          ]
         },
-        "tooltip": [
-          {"field": "Year", "type": "temporal", "title": "Year"},
-          {"field": "Fertility_Rate", "type": "quantitative", "title": "Fertility Rate"}
+        "transform": [
+          {"calculate": "year(datum.Year)", "as": "Year_Only"}
         ]
       },
-      "transform": [
-        {"calculate": "'Fertility Rate'", "as": "Type"}
-      ]
-    },
-    {
-      "data": {
-        "values": [
-          {"Year": "2010", "Fertility_Rate": 1.4, "Policy": "Introduction of Family Tax Allowance"},
-          {"Year": "2015", "Fertility_Rate": 1.5, "Policy": "Family Housing Allowance Program (CSOK)"},
-          {"Year": "2019", "Fertility_Rate": 1.6, "Policy": "Expanded Pro-Natalist Measures"}
-        ]
-      },
-      "mark": {"type": "point", "size": 100},
-      "encoding": {
-        "x": {"field": "Year", "type": "temporal"},
-        "y": {"field": "Fertility_Rate", "type": "quantitative"},
-        "color": {
-          "field": "Type",
-          "type": "nominal",
-          "scale": {
-            "domain": ["Fertility Rate", "Pro-Natalist Policy"],
-            "range": ["blue", "green"]
-          }
+      {
+        "data": {
+          "values": [
+            {
+              "Year": "2010",
+              "Fertility_Rate": 1.25,
+              "Policy": "Introduction of Family Tax Allowance"
+            },
+            {
+              "Year": "2015",
+              "Fertility_Rate": 1.44,
+              "Policy": "Family Housing Allowance Program (CSOK)"
+            },
+            {
+              "Year": "2019",
+              "Fertility_Rate": 1.53,
+              "Policy": "Expanded Pro-Natalist Measures"
+            }
+          ]
         },
-        "tooltip": [
-          {"field": "Year", "type": "temporal", "title": "Year"},
-          {"field": "Fertility_Rate", "type": "quantitative", "title": "Fertility Rate"},
-          {"field": "Policy", "type": "nominal", "title": "Policy"}
+        "mark": {"type": "point", "size": 200},
+        "encoding": {
+          "x": {"field": "Year", "type": "temporal"},
+          "y": {"field": "Fertility_Rate", "type": "quantitative"},
+          "color": {
+            "field": "Policy",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "Introduction of Family Tax Allowance",
+                "Family Housing Allowance Program (CSOK)",
+                "Expanded Pro-Natalist Measures"
+              ],
+              "range": ["green", "orange", "purple"]
+            },
+            "legend": {"title": "Policy Impact"}
+          },
+          "tooltip": [
+            {
+              "field": "Year_Only",
+              "type": "ordinal",
+              "title": "Year"
+            },
+            {
+              "field": "Fertility_Rate",
+              "type": "quantitative",
+              "title": "Fertility Rate"
+            },
+            {"field": "Policy", "type": "nominal", "title": "Policy"}
+          ]
+        },
+        "transform": [
+          {"calculate": "year(datum.Year)", "as": "Year_Only"}
         ]
       },
-      "transform": [
-        {"calculate": "'Pro-Natalist Policy'", "as": "Type"}
-      ]
-    },
-    {
-      "mark": {"type": "rule", "strokeDash": [4, 4], "color": "black"},
-      "encoding": {
-        "y": {"datum": 2.1, "type": "quantitative"}
+      {
+        "mark": {"type": "rule", "strokeDash": [4, 4], "color": "black"},
+        "encoding": {"y": {"datum": 2.1, "type": "quantitative"}}
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "dx": 120,
+          "dy": -5,
+          "color": "black"
+        },
+        "encoding": {
+          "y": {"datum": 2.1, "type": "quantitative"},
+          "x": {"datum": "1950", "type": "temporal"},
+          "text": {"value": "Replacement Rate"}
+        }
       }
+    ],
+    "title": {
+      "text": "Fertility Rate in Hungary",
+      "subtitle": "Impact of Policies on Fertility Trends (1950-2023) | Source: UN Population Division",
+      "fontSize": 16,
+      "subtitleFontSize": 10
     },
-    {
-      "mark": {"type": "text", "align": "left", "dx": 120, "dy": -5, "color": "black"},
-      "encoding": {
-        "y": {"datum": 2.1, "type": "quantitative"},
-        "x": {"datum": "1950", "type": "temporal"},
-        "text": {"value": "Replacement Rate"}
-      }
-    }
-  ],
-  "title": "Fertility Rate in Hungary (1950-2023)",
-  "config": {
-    "view": {"stroke": "transparent"},
-    "title": {"fontSize": 16},
-    "legend": {
-      "symbolType": "circle",
-      "symbolSize": 50,
-      "labelFontSize": 12
+    "config": {
+      "view": {"stroke": "transparent"},
+      "legend": {"symbolType": "circle", "symbolSize": 100, "labelFontSize": 12}
     }
   }
-}
+  
