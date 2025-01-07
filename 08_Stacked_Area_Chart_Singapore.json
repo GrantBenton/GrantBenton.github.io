@@ -9,7 +9,7 @@
     "anchor": "start"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/22_Population_Dependency_Singapore.csv"
+    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/22_Population_Dependency_Singapore1.csv"
   },
   "transform": [
     {
@@ -21,8 +21,8 @@
     "type": "area",
     "tooltip": true
   },
-  "width": "container",
-  "height": 400,
+  "width": 600,
+  "height": 300,
   "encoding": {
     "x": {
       "field": "Time",
