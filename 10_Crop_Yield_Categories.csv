@@ -1,0 +1,683 @@
+Entity,Code,Year,Crop,Category,Yield (tonnes per hectare)
+World,OWID_WRL,1961,Wheat,Cereals/Grains,1.0889
+World,OWID_WRL,1962,Wheat,Cereals/Grains,1.206
+World,OWID_WRL,1963,Wheat,Cereals/Grains,1.132
+World,OWID_WRL,1964,Wheat,Cereals/Grains,1.2413
+World,OWID_WRL,1965,Wheat,Cereals/Grains,1.2150999
+World,OWID_WRL,1966,Wheat,Cereals/Grains,1.4079
+World,OWID_WRL,1967,Wheat,Cereals/Grains,1.3392
+World,OWID_WRL,1968,Wheat,Cereals/Grains,1.4534
+World,OWID_WRL,1969,Wheat,Cereals/Grains,1.4174
+World,OWID_WRL,1970,Wheat,Cereals/Grains,1.4941
+World,OWID_WRL,1971,Wheat,Cereals/Grains,1.6244999
+World,OWID_WRL,1972,Wheat,Cereals/Grains,1.6046
+World,OWID_WRL,1973,Wheat,Cereals/Grains,1.6836
+World,OWID_WRL,1974,Wheat,Cereals/Grains,1.6155
+World,OWID_WRL,1975,Wheat,Cereals/Grains,1.5701
+World,OWID_WRL,1976,Wheat,Cereals/Grains,1.7910999
+World,OWID_WRL,1977,Wheat,Cereals/Grains,1.6724
+World,OWID_WRL,1978,Wheat,Cereals/Grains,1.9327999
+World,OWID_WRL,1979,Wheat,Cereals/Grains,1.8521999
+World,OWID_WRL,1980,Wheat,Cereals/Grains,1.8554
+World,OWID_WRL,1981,Wheat,Cereals/Grains,1.88
+World,OWID_WRL,1982,Wheat,Cereals/Grains,1.9992
+World,OWID_WRL,1983,Wheat,Cereals/Grains,2.1258
+World,OWID_WRL,1984,Wheat,Cereals/Grains,2.2201
+World,OWID_WRL,1985,Wheat,Cereals/Grains,2.1719
+World,OWID_WRL,1986,Wheat,Cereals/Grains,2.3213
+World,OWID_WRL,1987,Wheat,Cereals/Grains,2.29
+World,OWID_WRL,1988,Wheat,Cereals/Grains,2.2926
+World,OWID_WRL,1989,Wheat,Cereals/Grains,2.3732
+World,OWID_WRL,1990,Wheat,Cereals/Grains,2.5626
+World,OWID_WRL,1991,Wheat,Cereals/Grains,2.4414
+World,OWID_WRL,1992,Wheat,Cereals/Grains,2.534
+World,OWID_WRL,1993,Wheat,Cereals/Grains,2.537
+World,OWID_WRL,1994,Wheat,Cereals/Grains,2.4777
+World,OWID_WRL,1995,Wheat,Cereals/Grains,2.4958
+World,OWID_WRL,1996,Wheat,Cereals/Grains,2.564
+World,OWID_WRL,1997,Wheat,Cereals/Grains,2.7157
+World,OWID_WRL,1998,Wheat,Cereals/Grains,2.7063
+World,OWID_WRL,1999,Wheat,Cereals/Grains,2.7461998
+World,OWID_WRL,2000,Wheat,Cereals/Grains,2.7316
+World,OWID_WRL,2001,Wheat,Cereals/Grains,2.7417
+World,OWID_WRL,2002,Wheat,Cereals/Grains,2.7551
+World,OWID_WRL,2003,Wheat,Cereals/Grains,2.6513999
+World,OWID_WRL,2004,Wheat,Cereals/Grains,2.9426
+World,OWID_WRL,2005,Wheat,Cereals/Grains,2.8286998
+World,OWID_WRL,2006,Wheat,Cereals/Grains,2.8904998
+World,OWID_WRL,2007,Wheat,Cereals/Grains,2.8154
+World,OWID_WRL,2008,Wheat,Cereals/Grains,3.0625
+World,OWID_WRL,2009,Wheat,Cereals/Grains,3.0356
+World,OWID_WRL,2010,Wheat,Cereals/Grains,2.9721
+World,OWID_WRL,2011,Wheat,Cereals/Grains,3.1639
+World,OWID_WRL,2012,Wheat,Cereals/Grains,3.0934
+World,OWID_WRL,2013,Wheat,Cereals/Grains,3.2512
+World,OWID_WRL,2014,Wheat,Cereals/Grains,3.3195
+World,OWID_WRL,2015,Wheat,Cereals/Grains,3.3272
+World,OWID_WRL,2016,Wheat,Cereals/Grains,3.4183
+World,OWID_WRL,2017,Wheat,Cereals/Grains,3.541
+World,OWID_WRL,2018,Wheat,Cereals/Grains,3.4225
+World,OWID_WRL,2019,Wheat,Cereals/Grains,3.5414
+World,OWID_WRL,2020,Wheat,Cereals/Grains,3.4743998
+World,OWID_WRL,2021,Wheat,Cereals/Grains,3.5059
+World,OWID_WRL,2022,Wheat,Cereals/Grains,3.6889
+World,OWID_WRL,1961,Rice,Cereals/Grains,1.8693
+World,OWID_WRL,1962,Rice,Cereals/Grains,1.8958
+World,OWID_WRL,1963,Rice,Cereals/Grains,2.0567
+World,OWID_WRL,1964,Rice,Cereals/Grains,2.1025
+World,OWID_WRL,1965,Rice,Cereals/Grains,2.0353
+World,OWID_WRL,1966,Rice,Cereals/Grains,2.0781
+World,OWID_WRL,1967,Rice,Cereals/Grains,2.1749
+World,OWID_WRL,1968,Rice,Cereals/Grains,2.2328
+World,OWID_WRL,1969,Rice,Cereals/Grains,2.254
+World,OWID_WRL,1970,Rice,Cereals/Grains,2.3808
+World,OWID_WRL,1971,Rice,Cereals/Grains,2.3618999
+World,OWID_WRL,1972,Rice,Cereals/Grains,2.3244998
+World,OWID_WRL,1973,Rice,Cereals/Grains,2.4524
+World,OWID_WRL,1974,Rice,Cereals/Grains,2.4250998
+World,OWID_WRL,1975,Rice,Cereals/Grains,2.5186
+World,OWID_WRL,1976,Rice,Cereals/Grains,2.4508998
+World,OWID_WRL,1977,Rice,Cereals/Grains,2.5718
+World,OWID_WRL,1978,Rice,Cereals/Grains,2.6843
+World,OWID_WRL,1979,Rice,Cereals/Grains,2.6590998
+World,OWID_WRL,1980,Rice,Cereals/Grains,2.7482
+World,OWID_WRL,1981,Rice,Cereals/Grains,2.8272
+World,OWID_WRL,1982,Rice,Cereals/Grains,2.9803998
+World,OWID_WRL,1983,Rice,Cereals/Grains,3.1367
+World,OWID_WRL,1984,Rice,Cereals/Grains,3.2261
+World,OWID_WRL,1985,Rice,Cereals/Grains,3.257
+World,OWID_WRL,1986,Rice,Cereals/Grains,3.2440999
+World,OWID_WRL,1987,Rice,Cereals/Grains,3.2651
+World,OWID_WRL,1988,Rice,Cereals/Grains,3.3295999
+World,OWID_WRL,1989,Rice,Cereals/Grains,3.4541
+World,OWID_WRL,1990,Rice,Cereals/Grains,3.5286
+World,OWID_WRL,1991,Rice,Cereals/Grains,3.537
+World,OWID_WRL,1992,Rice,Cereals/Grains,3.5879998
+World,OWID_WRL,1993,Rice,Cereals/Grains,3.616
+World,OWID_WRL,1994,Rice,Cereals/Grains,3.6611
+World,OWID_WRL,1995,Rice,Cereals/Grains,3.6606
+World,OWID_WRL,1996,Rice,Cereals/Grains,3.7856
+World,OWID_WRL,1997,Rice,Cereals/Grains,3.8186998
+World,OWID_WRL,1998,Rice,Cereals/Grains,3.8179
+World,OWID_WRL,1999,Rice,Cereals/Grains,3.8992999
+World,OWID_WRL,2000,Rice,Cereals/Grains,3.8904998
+World,OWID_WRL,2001,Rice,Cereals/Grains,3.9517999
+World,OWID_WRL,2002,Rice,Cereals/Grains,3.8646998
+World,OWID_WRL,2003,Rice,Cereals/Grains,3.9559999
+World,OWID_WRL,2004,Rice,Cereals/Grains,4.0323
+World,OWID_WRL,2005,Rice,Cereals/Grains,4.0871
+World,OWID_WRL,2006,Rice,Cereals/Grains,4.1215997
+World,OWID_WRL,2007,Rice,Cereals/Grains,4.2269
+World,OWID_WRL,2008,Rice,Cereals/Grains,4.2981997
+World,OWID_WRL,2009,Rice,Cereals/Grains,4.3465
+World,OWID_WRL,2010,Rice,Cereals/Grains,4.3248
+World,OWID_WRL,2011,Rice,Cereals/Grains,4.4556
+World,OWID_WRL,2012,Rice,Cereals/Grains,4.5299
+World,OWID_WRL,2013,Rice,Cereals/Grains,4.5036
+World,OWID_WRL,2014,Rice,Cereals/Grains,4.5346
+World,OWID_WRL,2015,Rice,Cereals/Grains,4.5673
+World,OWID_WRL,2016,Rice,Cereals/Grains,4.5555997
+World,OWID_WRL,2017,Rice,Cereals/Grains,4.6007
+World,OWID_WRL,2018,Rice,Cereals/Grains,4.6727
+World,OWID_WRL,2019,Rice,Cereals/Grains,4.7012
+World,OWID_WRL,2020,Rice,Cereals/Grains,4.6944
+World,OWID_WRL,2021,Rice,Cereals/Grains,4.7444
+World,OWID_WRL,2022,Rice,Cereals/Grains,4.7047
+World,OWID_WRL,1961,Maize,Cereals/Grains,1.9423
+World,OWID_WRL,1962,Maize,Cereals/Grains,1.9796
+World,OWID_WRL,1963,Maize,Cereals/Grains,2.0311
+World,OWID_WRL,1964,Maize,Cereals/Grains,1.9936999
+World,OWID_WRL,1965,Maize,Cereals/Grains,2.1237
+World,OWID_WRL,1966,Maize,Cereals/Grains,2.2078
+World,OWID_WRL,1967,Maize,Cereals/Grains,2.4236
+World,OWID_WRL,1968,Maize,Cereals/Grains,2.2893999
+World,OWID_WRL,1969,Maize,Cereals/Grains,2.4206
+World,OWID_WRL,1970,Maize,Cereals/Grains,2.3509
+World,OWID_WRL,1971,Maize,Cereals/Grains,2.6534
+World,OWID_WRL,1972,Maize,Cereals/Grains,2.6866999
+World,OWID_WRL,1973,Maize,Cereals/Grains,2.7217
+World,OWID_WRL,1974,Maize,Cereals/Grains,2.5565
+World,OWID_WRL,1975,Maize,Cereals/Grains,2.8132
+World,OWID_WRL,1976,Maize,Cereals/Grains,2.8371
+World,OWID_WRL,1977,Maize,Cereals/Grains,2.9668
+World,OWID_WRL,1978,Maize,Cereals/Grains,3.1555998
+World,OWID_WRL,1979,Maize,Cereals/Grains,3.3846998
+World,OWID_WRL,1980,Maize,Cereals/Grains,3.1534
+World,OWID_WRL,1981,Maize,Cereals/Grains,3.4933
+World,OWID_WRL,1982,Maize,Cereals/Grains,3.609
+World,OWID_WRL,1983,Maize,Cereals/Grains,2.9452
+World,OWID_WRL,1984,Maize,Cereals/Grains,3.5256
+World,OWID_WRL,1985,Maize,Cereals/Grains,3.7201998
+World,OWID_WRL,1986,Maize,Cereals/Grains,3.6279
+World,OWID_WRL,1987,Maize,Cereals/Grains,3.4863
+World,OWID_WRL,1988,Maize,Cereals/Grains,3.1001
+World,OWID_WRL,1989,Maize,Cereals/Grains,3.6186
+World,OWID_WRL,1990,Maize,Cereals/Grains,3.6941
+World,OWID_WRL,1991,Maize,Cereals/Grains,3.6996999
+World,OWID_WRL,1992,Maize,Cereals/Grains,3.9062998
+World,OWID_WRL,1993,Maize,Cereals/Grains,3.6306
+World,OWID_WRL,1994,Maize,Cereals/Grains,4.112
+World,OWID_WRL,1995,Maize,Cereals/Grains,3.8100998
+World,OWID_WRL,1996,Maize,Cereals/Grains,4.2062
+World,OWID_WRL,1997,Maize,Cereals/Grains,4.1512
+World,OWID_WRL,1998,Maize,Cereals/Grains,4.4354997
+World,OWID_WRL,1999,Maize,Cereals/Grains,4.4255
+World,OWID_WRL,2000,Maize,Cereals/Grains,4.3236
+World,OWID_WRL,2001,Maize,Cereals/Grains,4.4776
+World,OWID_WRL,2002,Maize,Cereals/Grains,4.3905997
+World,OWID_WRL,2003,Maize,Cereals/Grains,4.461
+World,OWID_WRL,2004,Maize,Cereals/Grains,4.9448
+World,OWID_WRL,2005,Maize,Cereals/Grains,4.8188
+World,OWID_WRL,2006,Maize,Cereals/Grains,4.7764997
+World,OWID_WRL,2007,Maize,Cereals/Grains,4.9827
+World,OWID_WRL,2008,Maize,Cereals/Grains,5.0695
+World,OWID_WRL,2009,Maize,Cereals/Grains,5.1496
+World,OWID_WRL,2010,Maize,Cereals/Grains,5.1572
+World,OWID_WRL,2011,Maize,Cereals/Grains,5.1384997
+World,OWID_WRL,2012,Maize,Cereals/Grains,4.8487997
+World,OWID_WRL,2013,Maize,Cereals/Grains,5.4210997
+World,OWID_WRL,2014,Maize,Cereals/Grains,5.579
+World,OWID_WRL,2015,Maize,Cereals/Grains,5.5158
+World,OWID_WRL,2016,Maize,Cereals/Grains,5.7883
+World,OWID_WRL,2017,Maize,Cereals/Grains,5.7425
+World,OWID_WRL,2018,Maize,Cereals/Grains,5.7583
+World,OWID_WRL,2019,Maize,Cereals/Grains,5.8743997
+World,OWID_WRL,2020,Maize,Cereals/Grains,5.7998
+World,OWID_WRL,2021,Maize,Cereals/Grains,5.8728
+World,OWID_WRL,2022,Maize,Cereals/Grains,5.7183
+World,OWID_WRL,1961,Barley,Cereals/Grains,1.3282
+World,OWID_WRL,1962,Barley,Cereals/Grains,1.5253999
+World,OWID_WRL,1963,Barley,Cereals/Grains,1.4286
+World,OWID_WRL,1964,Barley,Cereals/Grains,1.5511999
+World,OWID_WRL,1965,Barley,Cereals/Grains,1.5479
+World,OWID_WRL,1966,Barley,Cereals/Grains,1.6535
+World,OWID_WRL,1967,Barley,Cereals/Grains,1.6955
+World,OWID_WRL,1968,Barley,Cereals/Grains,1.7931
+World,OWID_WRL,1969,Barley,Cereals/Grains,1.7821
+World,OWID_WRL,1970,Barley,Cereals/Grains,1.8054999
+World,OWID_WRL,1971,Barley,Cereals/Grains,1.9397
+World,OWID_WRL,1972,Barley,Cereals/Grains,1.8227999
+World,OWID_WRL,1973,Barley,Cereals/Grains,1.9372
+World,OWID_WRL,1974,Barley,Cereals/Grains,1.9525
+World,OWID_WRL,1975,Barley,Cereals/Grains,1.6976999
+World,OWID_WRL,1976,Barley,Cereals/Grains,2.0558
+World,OWID_WRL,1977,Barley,Cereals/Grains,1.9073
+World,OWID_WRL,1978,Barley,Cereals/Grains,2.1756
+World,OWID_WRL,1979,Barley,Cereals/Grains,1.8519
+World,OWID_WRL,1980,Barley,Cereals/Grains,1.9977
+World,OWID_WRL,1981,Barley,Cereals/Grains,1.8346
+World,OWID_WRL,1982,Barley,Cereals/Grains,2.073
+World,OWID_WRL,1983,Barley,Cereals/Grains,2.01
+World,OWID_WRL,1984,Barley,Cereals/Grains,2.1577
+World,OWID_WRL,1985,Barley,Cereals/Grains,2.1792
+World,OWID_WRL,1986,Barley,Cereals/Grains,2.2379
+World,OWID_WRL,1987,Barley,Cereals/Grains,2.2458
+World,OWID_WRL,1988,Barley,Cereals/Grains,2.1657
+World,OWID_WRL,1989,Barley,Cereals/Grains,2.2288
+World,OWID_WRL,1990,Barley,Cereals/Grains,2.4119
+World,OWID_WRL,1991,Barley,Cereals/Grains,2.2303
+World,OWID_WRL,1992,Barley,Cereals/Grains,2.2547
+World,OWID_WRL,1993,Barley,Cereals/Grains,2.2856
+World,OWID_WRL,1994,Barley,Cereals/Grains,2.2528
+World,OWID_WRL,1995,Barley,Cereals/Grains,2.0455
+World,OWID_WRL,1996,Barley,Cereals/Grains,2.3579
+World,OWID_WRL,1997,Barley,Cereals/Grains,2.4515998
+World,OWID_WRL,1998,Barley,Cereals/Grains,2.4189
+World,OWID_WRL,1999,Barley,Cereals/Grains,2.3996
+World,OWID_WRL,2000,Barley,Cereals/Grains,2.4542
+World,OWID_WRL,2001,Barley,Cereals/Grains,2.519
+World,OWID_WRL,2002,Barley,Cereals/Grains,2.5583
+World,OWID_WRL,2003,Barley,Cereals/Grains,2.375
+World,OWID_WRL,2004,Barley,Cereals/Grains,2.7236
+World,OWID_WRL,2005,Barley,Cereals/Grains,2.4608998
+World,OWID_WRL,2006,Barley,Cereals/Grains,2.5546
+World,OWID_WRL,2007,Barley,Cereals/Grains,2.3875
+World,OWID_WRL,2008,Barley,Cereals/Grains,2.7856998
+World,OWID_WRL,2009,Barley,Cereals/Grains,2.7644
+World,OWID_WRL,2010,Barley,Cereals/Grains,2.5948
+World,OWID_WRL,2011,Barley,Cereals/Grains,2.7337
+World,OWID_WRL,2012,Barley,Cereals/Grains,2.6455998
+World,OWID_WRL,2013,Barley,Cereals/Grains,2.873
+World,OWID_WRL,2014,Barley,Cereals/Grains,2.9099
+World,OWID_WRL,2015,Barley,Cereals/Grains,3.0249
+World,OWID_WRL,2016,Barley,Cereals/Grains,3.0307
+World,OWID_WRL,2017,Barley,Cereals/Grains,3.1014
+World,OWID_WRL,2018,Barley,Cereals/Grains,2.9343
+World,OWID_WRL,2019,Barley,Cereals/Grains,3.0949
+World,OWID_WRL,2020,Barley,Cereals/Grains,3.0184
+World,OWID_WRL,2021,Barley,Cereals/Grains,2.9752
+World,OWID_WRL,2022,Barley,Cereals/Grains,3.2849998
+World,OWID_WRL,1961,Soybeans,Legumes,1.1287
+World,OWID_WRL,1962,Soybeans,Legumes,1.1384
+World,OWID_WRL,1963,Soybeans,Legumes,1.1560999
+World,OWID_WRL,1964,Soybeans,Legumes,1.1323
+World,OWID_WRL,1965,Soybeans,Legumes,1.2279
+World,OWID_WRL,1966,Soybeans,Legumes,1.3722999
+World,OWID_WRL,1967,Soybeans,Legumes,1.3493999
+World,OWID_WRL,1968,Soybeans,Legumes,1.4345
+World,OWID_WRL,1969,Soybeans,Legumes,1.4523
+World,OWID_WRL,1970,Soybeans,Legumes,1.48
+World,OWID_WRL,1971,Soybeans,Legumes,1.5188999
+World,OWID_WRL,1972,Soybeans,Legumes,1.4896
+World,OWID_WRL,1973,Soybeans,Legumes,1.5850999
+World,OWID_WRL,1974,Soybeans,Legumes,1.4079
+World,OWID_WRL,1975,Soybeans,Legumes,1.6574
+World,OWID_WRL,1976,Soybeans,Legumes,1.5443
+World,OWID_WRL,1977,Soybeans,Legumes,1.7560999
+World,OWID_WRL,1978,Soybeans,Legumes,1.6264
+World,OWID_WRL,1979,Soybeans,Legumes,1.7492
+World,OWID_WRL,1980,Soybeans,Legumes,1.6000999
+World,OWID_WRL,1981,Soybeans,Legumes,1.7537999
+World,OWID_WRL,1982,Soybeans,Legumes,1.7586
+World,OWID_WRL,1983,Soybeans,Legumes,1.6200999
+World,OWID_WRL,1984,Soybeans,Legumes,1.7142999
+World,OWID_WRL,1985,Soybeans,Legumes,1.9063
+World,OWID_WRL,1986,Soybeans,Legumes,1.8198999
+World,OWID_WRL,1987,Soybeans,Legumes,1.9052
+World,OWID_WRL,1988,Soybeans,Legumes,1.7047
+World,OWID_WRL,1989,Soybeans,Legumes,1.8288
+World,OWID_WRL,1990,Soybeans,Legumes,1.8958
+World,OWID_WRL,1991,Soybeans,Legumes,1.8725
+World,OWID_WRL,1992,Soybeans,Legumes,2.031
+World,OWID_WRL,1993,Soybeans,Legumes,1.9361
+World,OWID_WRL,1994,Soybeans,Legumes,2.1825
+World,OWID_WRL,1995,Soybeans,Legumes,2.0312
+World,OWID_WRL,1996,Soybeans,Legumes,2.1316
+World,OWID_WRL,1997,Soybeans,Legumes,2.1564999
+World,OWID_WRL,1998,Soybeans,Legumes,2.2561998
+World,OWID_WRL,1999,Soybeans,Legumes,2.1901
+World,OWID_WRL,2000,Soybeans,Legumes,2.1708
+World,OWID_WRL,2001,Soybeans,Legumes,2.3061
+World,OWID_WRL,2002,Soybeans,Legumes,2.2925
+World,OWID_WRL,2003,Soybeans,Legumes,2.2796
+World,OWID_WRL,2004,Soybeans,Legumes,2.2433
+World,OWID_WRL,2005,Soybeans,Legumes,2.3174999
+World,OWID_WRL,2006,Soybeans,Legumes,2.324
+World,OWID_WRL,2007,Soybeans,Legumes,2.437
+World,OWID_WRL,2008,Soybeans,Legumes,2.3978999
+World,OWID_WRL,2009,Soybeans,Legumes,2.2475998
+World,OWID_WRL,2010,Soybeans,Legumes,2.5772
+World,OWID_WRL,2011,Soybeans,Legumes,2.5187
+World,OWID_WRL,2012,Soybeans,Legumes,2.2882
+World,OWID_WRL,2013,Soybeans,Legumes,2.4991
+World,OWID_WRL,2014,Soybeans,Legumes,2.6013
+World,OWID_WRL,2015,Soybeans,Legumes,2.6738
+World,OWID_WRL,2016,Soybeans,Legumes,2.7522
+World,OWID_WRL,2017,Soybeans,Legumes,2.8553998
+World,OWID_WRL,2018,Soybeans,Legumes,2.7777998
+World,OWID_WRL,2019,Soybeans,Legumes,2.7681
+World,OWID_WRL,2020,Soybeans,Legumes,2.7921
+World,OWID_WRL,2021,Soybeans,Legumes,2.8576
+World,OWID_WRL,2022,Soybeans,Legumes,2.6074998
+World,OWID_WRL,1961,"Beans, dry",Legumes,0.49319997
+World,OWID_WRL,1962,"Beans, dry",Legumes,0.4996
+World,OWID_WRL,1963,"Beans, dry",Legumes,0.4904
+World,OWID_WRL,1964,"Beans, dry",Legumes,0.4901
+World,OWID_WRL,1965,"Beans, dry",Legumes,0.49429998
+World,OWID_WRL,1966,"Beans, dry",Legumes,0.5
+World,OWID_WRL,1967,"Beans, dry",Legumes,0.5221
+World,OWID_WRL,1968,"Beans, dry",Legumes,0.5014
+World,OWID_WRL,1969,"Beans, dry",Legumes,0.5124
+World,OWID_WRL,1970,"Beans, dry",Legumes,0.54109997
+World,OWID_WRL,1971,"Beans, dry",Legumes,0.5413
+World,OWID_WRL,1972,"Beans, dry",Legumes,0.5406
+World,OWID_WRL,1973,"Beans, dry",Legumes,0.54539996
+World,OWID_WRL,1974,"Beans, dry",Legumes,0.53389996
+World,OWID_WRL,1975,"Beans, dry",Legumes,0.5491
+World,OWID_WRL,1976,"Beans, dry",Legumes,0.5286
+World,OWID_WRL,1977,"Beans, dry",Legumes,0.5448
+World,OWID_WRL,1978,"Beans, dry",Legumes,0.55509996
+World,OWID_WRL,1979,"Beans, dry",Legumes,0.551
+World,OWID_WRL,1980,"Beans, dry",Legumes,0.5376
+World,OWID_WRL,1981,"Beans, dry",Legumes,0.5779
+World,OWID_WRL,1982,"Beans, dry",Legumes,0.58529997
+World,OWID_WRL,1983,"Beans, dry",Legumes,0.58809996
+World,OWID_WRL,1984,"Beans, dry",Legumes,0.5951
+World,OWID_WRL,1985,"Beans, dry",Legumes,0.58669996
+World,OWID_WRL,1986,"Beans, dry",Legumes,0.57089996
+World,OWID_WRL,1987,"Beans, dry",Legumes,0.58809996
+World,OWID_WRL,1988,"Beans, dry",Legumes,0.6179
+World,OWID_WRL,1989,"Beans, dry",Legumes,0.59499997
+World,OWID_WRL,1990,"Beans, dry",Legumes,0.66069996
+World,OWID_WRL,1991,"Beans, dry",Legumes,0.6473
+World,OWID_WRL,1992,"Beans, dry",Legumes,0.6651
+World,OWID_WRL,1993,"Beans, dry",Legumes,0.6584
+World,OWID_WRL,1994,"Beans, dry",Legumes,0.6522
+World,OWID_WRL,1995,"Beans, dry",Legumes,0.6764
+World,OWID_WRL,1996,"Beans, dry",Legumes,0.6537
+World,OWID_WRL,1997,"Beans, dry",Legumes,0.6382
+World,OWID_WRL,1998,"Beans, dry",Legumes,0.6738
+World,OWID_WRL,1999,"Beans, dry",Legumes,0.7477
+World,OWID_WRL,2000,"Beans, dry",Legumes,0.73899996
+World,OWID_WRL,2001,"Beans, dry",Legumes,0.76129997
+World,OWID_WRL,2002,"Beans, dry",Legumes,0.71959996
+World,OWID_WRL,2003,"Beans, dry",Legumes,0.74189997
+World,OWID_WRL,2004,"Beans, dry",Legumes,0.6753
+World,OWID_WRL,2005,"Beans, dry",Legumes,0.71099997
+World,OWID_WRL,2006,"Beans, dry",Legumes,0.7514
+World,OWID_WRL,2007,"Beans, dry",Legumes,0.7335
+World,OWID_WRL,2008,"Beans, dry",Legumes,0.81189996
+World,OWID_WRL,2009,"Beans, dry",Legumes,0.85249996
+World,OWID_WRL,2010,"Beans, dry",Legumes,0.79789996
+World,OWID_WRL,2011,"Beans, dry",Legumes,0.78529996
+World,OWID_WRL,2012,"Beans, dry",Legumes,0.8358
+World,OWID_WRL,2013,"Beans, dry",Legumes,0.84419996
+World,OWID_WRL,2014,"Beans, dry",Legumes,0.8196
+World,OWID_WRL,2015,"Beans, dry",Legumes,0.8318
+World,OWID_WRL,2016,"Beans, dry",Legumes,0.7664
+World,OWID_WRL,2017,"Beans, dry",Legumes,0.78349996
+World,OWID_WRL,2018,"Beans, dry",Legumes,0.75699997
+World,OWID_WRL,2019,"Beans, dry",Legumes,0.77089995
+World,OWID_WRL,2020,"Beans, dry",Legumes,0.7926
+World,OWID_WRL,2021,"Beans, dry",Legumes,0.78139997
+World,OWID_WRL,2022,"Beans, dry",Legumes,0.7704
+World,OWID_WRL,1961,"Peas, dry",Legumes,0.973
+World,OWID_WRL,1962,"Peas, dry",Legumes,1.0950999
+World,OWID_WRL,1963,"Peas, dry",Legumes,0.8627
+World,OWID_WRL,1964,"Peas, dry",Legumes,1.0
+World,OWID_WRL,1965,"Peas, dry",Legumes,1.0171
+World,OWID_WRL,1966,"Peas, dry",Legumes,1.0337
+World,OWID_WRL,1967,"Peas, dry",Legumes,1.0091
+World,OWID_WRL,1968,"Peas, dry",Legumes,1.1064
+World,OWID_WRL,1969,"Peas, dry",Legumes,1.1682
+World,OWID_WRL,1970,"Peas, dry",Legumes,1.1711999
+World,OWID_WRL,1971,"Peas, dry",Legumes,1.1532
+World,OWID_WRL,1972,"Peas, dry",Legumes,1.0573
+World,OWID_WRL,1973,"Peas, dry",Legumes,1.1215999
+World,OWID_WRL,1974,"Peas, dry",Legumes,1.2217
+World,OWID_WRL,1975,"Peas, dry",Legumes,0.97889996
+World,OWID_WRL,1976,"Peas, dry",Legumes,1.3612
+World,OWID_WRL,1977,"Peas, dry",Legumes,1.1567
+World,OWID_WRL,1978,"Peas, dry",Legumes,1.4045
+World,OWID_WRL,1979,"Peas, dry",Legumes,0.98969996
+World,OWID_WRL,1980,"Peas, dry",Legumes,1.3316
+World,OWID_WRL,1981,"Peas, dry",Legumes,0.977
+World,OWID_WRL,1982,"Peas, dry",Legumes,1.2894
+World,OWID_WRL,1983,"Peas, dry",Legumes,1.3182
+World,OWID_WRL,1984,"Peas, dry",Legumes,1.3046
+World,OWID_WRL,1985,"Peas, dry",Legumes,1.3781999
+World,OWID_WRL,1986,"Peas, dry",Legumes,1.2749
+World,OWID_WRL,1987,"Peas, dry",Legumes,1.5392
+World,OWID_WRL,1988,"Peas, dry",Legumes,1.5489
+World,OWID_WRL,1989,"Peas, dry",Legumes,1.6419
+World,OWID_WRL,1990,"Peas, dry",Legumes,1.9116
+World,OWID_WRL,1991,"Peas, dry",Legumes,1.5346999
+World,OWID_WRL,1992,"Peas, dry",Legumes,1.8708999
+World,OWID_WRL,1993,"Peas, dry",Legumes,2.0040998
+World,OWID_WRL,1994,"Peas, dry",Legumes,1.8730999
+World,OWID_WRL,1995,"Peas, dry",Legumes,1.609
+World,OWID_WRL,1996,"Peas, dry",Legumes,1.7032
+World,OWID_WRL,1997,"Peas, dry",Legumes,1.8723999
+World,OWID_WRL,1998,"Peas, dry",Legumes,1.9010999
+World,OWID_WRL,1999,"Peas, dry",Legumes,1.846
+World,OWID_WRL,2000,"Peas, dry",Legumes,1.7837
+World,OWID_WRL,2001,"Peas, dry",Legumes,1.5022
+World,OWID_WRL,2002,"Peas, dry",Legumes,1.6025
+World,OWID_WRL,2003,"Peas, dry",Legumes,1.6133
+World,OWID_WRL,2004,"Peas, dry",Legumes,1.8562
+World,OWID_WRL,2005,"Peas, dry",Legumes,1.727
+World,OWID_WRL,2006,"Peas, dry",Legumes,1.5411999
+World,OWID_WRL,2007,"Peas, dry",Legumes,1.4647
+World,OWID_WRL,2008,"Peas, dry",Legumes,1.6121999
+World,OWID_WRL,2009,"Peas, dry",Legumes,1.624
+World,OWID_WRL,2010,"Peas, dry",Legumes,1.5906
+World,OWID_WRL,2011,"Peas, dry",Legumes,1.6637
+World,OWID_WRL,2012,"Peas, dry",Legumes,1.5848
+World,OWID_WRL,2013,"Peas, dry",Legumes,1.7583
+World,OWID_WRL,2014,"Peas, dry",Legumes,1.7200999
+World,OWID_WRL,2015,"Peas, dry",Legumes,1.7287999
+World,OWID_WRL,2016,"Peas, dry",Legumes,2.0021
+World,OWID_WRL,2017,"Peas, dry",Legumes,2.0252
+World,OWID_WRL,2018,"Peas, dry",Legumes,1.7931999
+World,OWID_WRL,2019,"Peas, dry",Legumes,1.9549999
+World,OWID_WRL,2020,"Peas, dry",Legumes,2.0354
+World,OWID_WRL,2021,"Peas, dry",Legumes,1.7369
+World,OWID_WRL,2022,"Peas, dry",Legumes,1.9785
+World,OWID_WRL,1961,Potatoes,Root Crops,12.2157
+World,OWID_WRL,1962,Potatoes,Root Crops,11.4361
+World,OWID_WRL,1963,Potatoes,Root Crops,12.2767
+World,OWID_WRL,1964,Potatoes,Root Crops,13.102699
+World,OWID_WRL,1965,Potatoes,Root Crops,12.664599
+World,OWID_WRL,1966,Potatoes,Root Crops,13.120399
+World,OWID_WRL,1967,Potatoes,Root Crops,13.841599
+World,OWID_WRL,1968,Potatoes,Root Crops,14.3266
+World,OWID_WRL,1969,Potatoes,Root Crops,13.465699
+World,OWID_WRL,1970,Potatoes,Root Crops,14.347799
+World,OWID_WRL,1971,Potatoes,Root Crops,13.7155
+World,OWID_WRL,1972,Potatoes,Root Crops,13.4099
+World,OWID_WRL,1973,Potatoes,Root Crops,15.2883
+World,OWID_WRL,1974,Potatoes,Root Crops,14.128099
+World,OWID_WRL,1975,Potatoes,Root Crops,13.623199
+World,OWID_WRL,1976,Potatoes,Root Crops,14.3123
+World,OWID_WRL,1977,Potatoes,Root Crops,14.656699
+World,OWID_WRL,1978,Potatoes,Root Crops,15.202399
+World,OWID_WRL,1979,Potatoes,Root Crops,15.4955
+World,OWID_WRL,1980,Potatoes,Root Crops,12.800799
+World,OWID_WRL,1981,Potatoes,Root Crops,14.252299
+World,OWID_WRL,1982,Potatoes,Root Crops,14.145599
+World,OWID_WRL,1983,Potatoes,Root Crops,14.1606
+World,OWID_WRL,1984,Potatoes,Root Crops,15.5819
+World,OWID_WRL,1985,Potatoes,Root Crops,15.281699
+World,OWID_WRL,1986,Potatoes,Root Crops,15.8143
+World,OWID_WRL,1987,Potatoes,Root Crops,15.5447
+World,OWID_WRL,1988,Potatoes,Root Crops,14.8356
+World,OWID_WRL,1989,Potatoes,Root Crops,15.3537
+World,OWID_WRL,1990,Potatoes,Root Crops,15.1119995
+World,OWID_WRL,1991,Potatoes,Root Crops,14.4171
+World,OWID_WRL,1992,Potatoes,Root Crops,14.98
+World,OWID_WRL,1993,Potatoes,Root Crops,16.4065
+World,OWID_WRL,1994,Potatoes,Root Crops,14.851
+World,OWID_WRL,1995,Potatoes,Root Crops,15.321199
+World,OWID_WRL,1996,Potatoes,Root Crops,16.499899
+World,OWID_WRL,1997,Potatoes,Root Crops,16.0116
+World,OWID_WRL,1998,Potatoes,Root Crops,15.8651
+World,OWID_WRL,1999,Potatoes,Root Crops,15.110399
+World,OWID_WRL,2000,Potatoes,Root Crops,16.2194
+World,OWID_WRL,2001,Potatoes,Root Crops,15.7121
+World,OWID_WRL,2002,Potatoes,Root Crops,16.4594
+World,OWID_WRL,2003,Potatoes,Root Crops,16.442299
+World,OWID_WRL,2004,Potatoes,Root Crops,17.505299
+World,OWID_WRL,2005,Potatoes,Root Crops,16.9345
+World,OWID_WRL,2006,Potatoes,Root Crops,17.273699
+World,OWID_WRL,2007,Potatoes,Root Crops,17.3866
+World,OWID_WRL,2008,Potatoes,Root Crops,18.0073
+World,OWID_WRL,2009,Potatoes,Root Crops,17.7951
+World,OWID_WRL,2010,Potatoes,Root Crops,18.077
+World,OWID_WRL,2011,Potatoes,Root Crops,19.7218
+World,OWID_WRL,2012,Potatoes,Root Crops,19.358099
+World,OWID_WRL,2013,Potatoes,Root Crops,19.7762
+World,OWID_WRL,2014,Potatoes,Root Crops,20.4786
+World,OWID_WRL,2015,Potatoes,Root Crops,20.255999
+World,OWID_WRL,2016,Potatoes,Root Crops,20.3529
+World,OWID_WRL,2017,Potatoes,Root Crops,21.1875
+World,OWID_WRL,2018,Potatoes,Root Crops,21.2435
+World,OWID_WRL,2019,Potatoes,Root Crops,22.348099
+World,OWID_WRL,2020,Potatoes,Root Crops,21.933699
+World,OWID_WRL,2021,Potatoes,Root Crops,20.7652
+World,OWID_WRL,2022,Potatoes,Root Crops,21.068699
+World,OWID_WRL,1961,Cassava,Root Crops,7.4042997
+World,OWID_WRL,1962,Cassava,Root Crops,7.5460997
+World,OWID_WRL,1963,Cassava,Root Crops,7.6078
+World,OWID_WRL,1964,Cassava,Root Crops,7.9044
+World,OWID_WRL,1965,Cassava,Root Crops,7.9357996
+World,OWID_WRL,1966,Cassava,Root Crops,7.9606
+World,OWID_WRL,1967,Cassava,Root Crops,8.020599
+World,OWID_WRL,1968,Cassava,Root Crops,8.3039
+World,OWID_WRL,1969,Cassava,Root Crops,8.348599
+World,OWID_WRL,1970,Cassava,Root Crops,8.486
+World,OWID_WRL,1971,Cassava,Root Crops,8.3633995
+World,OWID_WRL,1972,Cassava,Root Crops,8.4218
+World,OWID_WRL,1973,Cassava,Root Crops,8.1703
+World,OWID_WRL,1974,Cassava,Root Crops,8.1676
+World,OWID_WRL,1975,Cassava,Root Crops,8.5981
+World,OWID_WRL,1976,Cassava,Root Crops,8.844399
+World,OWID_WRL,1977,Cassava,Root Crops,8.9354
+World,OWID_WRL,1978,Cassava,Root Crops,9.0442
+World,OWID_WRL,1979,Cassava,Root Crops,9.0067
+World,OWID_WRL,1980,Cassava,Root Crops,9.126699
+World,OWID_WRL,1981,Cassava,Root Crops,9.2584
+World,OWID_WRL,1982,Cassava,Root Crops,9.215899
+World,OWID_WRL,1983,Cassava,Root Crops,9.3301
+World,OWID_WRL,1984,Cassava,Root Crops,9.4284
+World,OWID_WRL,1985,Cassava,Root Crops,9.8207
+World,OWID_WRL,1986,Cassava,Root Crops,9.629
+World,OWID_WRL,1987,Cassava,Root Crops,9.7421
+World,OWID_WRL,1988,Cassava,Root Crops,9.8878
+World,OWID_WRL,1989,Cassava,Root Crops,9.957
+World,OWID_WRL,1990,Cassava,Root Crops,10.0183
+World,OWID_WRL,1991,Cassava,Root Crops,9.8282995
+World,OWID_WRL,1992,Cassava,Root Crops,9.7526
+World,OWID_WRL,1993,Cassava,Root Crops,9.8502
+World,OWID_WRL,1994,Cassava,Root Crops,9.8018
+World,OWID_WRL,1995,Cassava,Root Crops,9.8598995
+World,OWID_WRL,1996,Cassava,Root Crops,9.7583
+World,OWID_WRL,1997,Cassava,Root Crops,10.096499
+World,OWID_WRL,1998,Cassava,Root Crops,9.8511
+World,OWID_WRL,1999,Cassava,Root Crops,10.047
+World,OWID_WRL,2000,Cassava,Root Crops,10.3754
+World,OWID_WRL,2001,Cassava,Root Crops,10.6788
+World,OWID_WRL,2002,Cassava,Root Crops,10.8027
+World,OWID_WRL,2003,Cassava,Root Crops,10.7515
+World,OWID_WRL,2004,Cassava,Root Crops,11.1085
+World,OWID_WRL,2005,Cassava,Root Crops,11.1366
+World,OWID_WRL,2006,Cassava,Root Crops,11.845099
+World,OWID_WRL,2007,Cassava,Root Crops,11.915299
+World,OWID_WRL,2008,Cassava,Root Crops,12.038
+World,OWID_WRL,2009,Cassava,Root Crops,12.1103
+World,OWID_WRL,2010,Cassava,Root Crops,11.7147
+World,OWID_WRL,2011,Cassava,Root Crops,11.7834
+World,OWID_WRL,2012,Cassava,Root Crops,10.8637
+World,OWID_WRL,2013,Cassava,Root Crops,10.7863
+World,OWID_WRL,2014,Cassava,Root Crops,11.058
+World,OWID_WRL,2015,Cassava,Root Crops,10.684999
+World,OWID_WRL,2016,Cassava,Root Crops,11.156099
+World,OWID_WRL,2017,Cassava,Root Crops,10.942699
+World,OWID_WRL,2018,Cassava,Root Crops,11.2691
+World,OWID_WRL,2019,Cassava,Root Crops,10.1609
+World,OWID_WRL,2020,Cassava,Root Crops,10.0597
+World,OWID_WRL,2021,Cassava,Root Crops,10.3624
+World,OWID_WRL,2022,Cassava,Root Crops,10.311399
+World,OWID_WRL,1961,Bananas,Fruits,10.6459
+World,OWID_WRL,1962,Bananas,Fruits,10.6621
+World,OWID_WRL,1963,Bananas,Fruits,10.8182
+World,OWID_WRL,1964,Bananas,Fruits,11.0608
+World,OWID_WRL,1965,Bananas,Fruits,11.186399
+World,OWID_WRL,1966,Bananas,Fruits,11.165
+World,OWID_WRL,1967,Bananas,Fruits,11.4087
+World,OWID_WRL,1968,Bananas,Fruits,11.6883
+World,OWID_WRL,1969,Bananas,Fruits,11.7817
+World,OWID_WRL,1970,Bananas,Fruits,11.5851
+World,OWID_WRL,1971,Bananas,Fruits,12.1143
+World,OWID_WRL,1972,Bananas,Fruits,11.7824
+World,OWID_WRL,1973,Bananas,Fruits,11.1595
+World,OWID_WRL,1974,Bananas,Fruits,11.476
+World,OWID_WRL,1975,Bananas,Fruits,11.5953
+World,OWID_WRL,1976,Bananas,Fruits,12.0778
+World,OWID_WRL,1977,Bananas,Fruits,12.501699
+World,OWID_WRL,1978,Bananas,Fruits,12.867399
+World,OWID_WRL,1979,Bananas,Fruits,12.9369
+World,OWID_WRL,1980,Bananas,Fruits,13.0391
+World,OWID_WRL,1981,Bananas,Fruits,13.2392
+World,OWID_WRL,1982,Bananas,Fruits,13.006499
+World,OWID_WRL,1983,Bananas,Fruits,12.7674
+World,OWID_WRL,1984,Bananas,Fruits,13.1591
+World,OWID_WRL,1985,Bananas,Fruits,13.1956
+World,OWID_WRL,1986,Bananas,Fruits,13.6544
+World,OWID_WRL,1987,Bananas,Fruits,13.6291
+World,OWID_WRL,1988,Bananas,Fruits,12.4109
+World,OWID_WRL,1989,Bananas,Fruits,12.963699
+World,OWID_WRL,1990,Bananas,Fruits,13.4065
+World,OWID_WRL,1991,Bananas,Fruits,13.4895
+World,OWID_WRL,1992,Bananas,Fruits,13.789599
+World,OWID_WRL,1993,Bananas,Fruits,14.538799
+World,OWID_WRL,1994,Bananas,Fruits,15.679899
+World,OWID_WRL,1995,Bananas,Fruits,15.6236
+World,OWID_WRL,1996,Bananas,Fruits,15.1071
+World,OWID_WRL,1997,Bananas,Fruits,15.113
+World,OWID_WRL,1998,Bananas,Fruits,15.174
+World,OWID_WRL,1999,Bananas,Fruits,16.1493
+World,OWID_WRL,2000,Bananas,Fruits,15.0912
+World,OWID_WRL,2001,Bananas,Fruits,15.796
+World,OWID_WRL,2002,Bananas,Fruits,16.126299
+World,OWID_WRL,2003,Bananas,Fruits,16.107199
+World,OWID_WRL,2004,Bananas,Fruits,16.9685
+World,OWID_WRL,2005,Bananas,Fruits,17.8902
+World,OWID_WRL,2006,Bananas,Fruits,17.969
+World,OWID_WRL,2007,Bananas,Fruits,19.114899
+World,OWID_WRL,2008,Bananas,Fruits,19.5472
+World,OWID_WRL,2009,Bananas,Fruits,19.890299
+World,OWID_WRL,2010,Bananas,Fruits,19.8652
+World,OWID_WRL,2011,Bananas,Fruits,19.6402
+World,OWID_WRL,2012,Bananas,Fruits,20.1215
+World,OWID_WRL,2013,Bananas,Fruits,20.5497
+World,OWID_WRL,2014,Bananas,Fruits,21.272299
+World,OWID_WRL,2015,Bananas,Fruits,21.275099
+World,OWID_WRL,2016,Bananas,Fruits,21.2901
+World,OWID_WRL,2017,Bananas,Fruits,22.187399
+World,OWID_WRL,2018,Bananas,Fruits,23.282299
+World,OWID_WRL,2019,Bananas,Fruits,23.1989
+World,OWID_WRL,2020,Bananas,Fruits,22.334799
+World,OWID_WRL,2021,Bananas,Fruits,22.559399
+World,OWID_WRL,2022,Bananas,Fruits,22.7456
+World,OWID_WRL,1961,Cocoa beans,Other,0.2694
+World,OWID_WRL,1962,Cocoa beans,Other,0.2716
+World,OWID_WRL,1963,Cocoa beans,Other,0.2835
+World,OWID_WRL,1964,Cocoa beans,Other,0.3399
+World,OWID_WRL,1965,Cocoa beans,Other,0.2677
+World,OWID_WRL,1966,Cocoa beans,Other,0.32979998
+World,OWID_WRL,1967,Cocoa beans,Other,0.3294
+World,OWID_WRL,1968,Cocoa beans,Other,0.3056
+World,OWID_WRL,1969,Cocoa beans,Other,0.3331
+World,OWID_WRL,1970,Cocoa beans,Other,0.3541
+World,OWID_WRL,1971,Cocoa beans,Other,0.3705
+World,OWID_WRL,1972,Cocoa beans,Other,0.3514
+World,OWID_WRL,1973,Cocoa beans,Other,0.32479998
+World,OWID_WRL,1974,Cocoa beans,Other,0.3538
+World,OWID_WRL,1975,Cocoa beans,Other,0.3581
+World,OWID_WRL,1976,Cocoa beans,Other,0.3171
+World,OWID_WRL,1977,Cocoa beans,Other,0.3274
+World,OWID_WRL,1978,Cocoa beans,Other,0.32639998
+World,OWID_WRL,1979,Cocoa beans,Other,0.3583
+World,OWID_WRL,1980,Cocoa beans,Other,0.3524
+World,OWID_WRL,1981,Cocoa beans,Other,0.3579
+World,OWID_WRL,1982,Cocoa beans,Other,0.3453
+World,OWID_WRL,1983,Cocoa beans,Other,0.3444
+World,OWID_WRL,1984,Cocoa beans,Other,0.3797
+World,OWID_WRL,1985,Cocoa beans,Other,0.39909998
+World,OWID_WRL,1986,Cocoa beans,Other,0.4037
+World,OWID_WRL,1987,Cocoa beans,Other,0.3897
+World,OWID_WRL,1988,Cocoa beans,Other,0.4533
+World,OWID_WRL,1989,Cocoa beans,Other,0.4789
+World,OWID_WRL,1990,Cocoa beans,Other,0.44259998
+World,OWID_WRL,1991,Cocoa beans,Other,0.44599998
+World,OWID_WRL,1992,Cocoa beans,Other,0.4675
+World,OWID_WRL,1993,Cocoa beans,Other,0.47079998
+World,OWID_WRL,1994,Cocoa beans,Other,0.46359998
+World,OWID_WRL,1995,Cocoa beans,Other,0.4554
+World,OWID_WRL,1996,Cocoa beans,Other,0.4867
+World,OWID_WRL,1997,Cocoa beans,Other,0.46879998
+World,OWID_WRL,1998,Cocoa beans,Other,0.49499997
+World,OWID_WRL,1999,Cocoa beans,Other,0.43359998
+World,OWID_WRL,2000,Cocoa beans,Other,0.4385
+World,OWID_WRL,2001,Cocoa beans,Other,0.45069999
+World,OWID_WRL,2002,Cocoa beans,Other,0.4702
+World,OWID_WRL,2003,Cocoa beans,Other,0.4816
+World,OWID_WRL,2004,Cocoa beans,Other,0.478
+World,OWID_WRL,2005,Cocoa beans,Other,0.46449998
+World,OWID_WRL,2006,Cocoa beans,Other,0.505
+World,OWID_WRL,2007,Cocoa beans,Other,0.4511
+World,OWID_WRL,2008,Cocoa beans,Other,0.44619998
+World,OWID_WRL,2009,Cocoa beans,Other,0.44619998
+World,OWID_WRL,2010,Cocoa beans,Other,0.4513
+World,OWID_WRL,2011,Cocoa beans,Other,0.44419998
+World,OWID_WRL,2012,Cocoa beans,Other,0.4473
+World,OWID_WRL,2013,Cocoa beans,Other,0.4407
+World,OWID_WRL,2014,Cocoa beans,Other,0.4482
+World,OWID_WRL,2015,Cocoa beans,Other,0.43949997
+World,OWID_WRL,2016,Cocoa beans,Other,0.4464
+World,OWID_WRL,2017,Cocoa beans,Other,0.4552
+World,OWID_WRL,2018,Cocoa beans,Other,0.4824
+World,OWID_WRL,2019,Cocoa beans,Other,0.4867
+World,OWID_WRL,2020,Cocoa beans,Other,0.4789
+World,OWID_WRL,2021,Cocoa beans,Other,0.4915
+World,OWID_WRL,2022,Cocoa beans,Other,0.49199998
