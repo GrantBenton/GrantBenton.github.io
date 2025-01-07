@@ -10,15 +10,25 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 <body>
-    <h1 class="big">Population Distribution Dashboard</h1>
+    <h1 class="big">Do Pro-Natalist Policy Interventions Work?</h1>
     <p class="small" style="color: darkblue;">
-        Explore population trends by age groups over time.
+        This is my PP434 Project. Enjoy! 
     </p>
+
+    <section>
+        <h2>Aims</h2>
+        <p>The aim of my project is to investigate, contextualize, and interpret the effects of pro-natalist policies introduced by Singapore and Hungary. The two countries chosen for this analysis, Hungary and Singapore, have a strong commitment to increasing their fertility rate, either through decades of incentive-based policies or a more recent restructuring of their economies around pro-natalist policies. To understand these policies, we must first examine the information policymakers rely on to prioritize these measures. For each country, I first introduce the issue through a population pyramid age breakdown (5-year intervals) highlighting year-by-year trends. Next, I contextualize why this population pyramid matters by breaking down each country’s dependency ratio in a stacked area chart. This provides valuable context for the distribution of young (under 15 years) and old (65+ years) populations. The imbalance between old and young shows why these governments are prioritizing fertility. Lastly, I use a line graph of fertility rates over the years, integrating interactive points for pro-natalist policies. This allows for an intuitive look at each policy’s effectiveness.</p>
+    </section>
 
     <div class="container">
         <h2>Chart 1: Population Pyramid</h2>
         <figure id="population_pyramid"></figure>
     </div>
+
+    <section>
+        <h2>Data</h2>
+        <p>The data used for this project is from the United Nations Population Division (<a href="https://population.un.org/dataportal/data/indicators/46/locations/348,702/start/1950/end/2023/table/pivotbylocation?df=b70bd799-d7a8-4552-b284-61e659f06fdf" target="_blank">Data Portal</a>). Their data portal enables quick manipulation by selecting country profiles, key indicators, and previewing the data in various visualization forms. All data is dated 2024 and updated yearly. Replication is straightforward as the dataset is well-organized with consistently defined indicators.</p>
+    </section>
 
     <div class="container">
         <h2>Chart 2: Stacked Area Chart - Hungary</h2>
@@ -35,6 +45,16 @@
         <figure id="fertility_hungary"></figure>
         <figure id="fertility_singapore"></figure>
     </div>
+
+    <section>
+        <h2>Challenges</h2>
+        <p>Some of the challenges encountered during this project included data cleaning, aligning datasets with different formats, and ensuring accurate representation through visualizations. Additionally, interpreting the policy impact required careful analysis of historical and economic contexts.</p>
+    </section>
+
+    <section>
+        <h2>Conclusion</h2>
+        <p>Do pro-natalist policy interventions work? My conclusions from these graphs are mixed. One part of the answer is country-specific, while the other suggests that pro-natalist policies alone will not reverse long-term demographic trends. Both example countries show these policy interventions can minimize fertility rate decreases, but the fertility rate has consistently declined since 1950. If the replacement rate figure of 2.1 is Hungary or Singapore's goal, alternative strategies are needed to maintain a robust working population (15-64). Potential solutions include immigration policies or addressing the high cost of living, which is a major issue in Singapore and globally.</p>
+    </section>
 
     <script>
         vegaEmbed('#population_pyramid', "21_Population_Pyramid.json");
