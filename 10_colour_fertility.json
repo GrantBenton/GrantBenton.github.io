@@ -8,10 +8,10 @@
     "anchor": "start",
     "color": "black"
   },
-  "width": 400,
+  "width": 600,
   "height": 300,
   "data": {
-    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/vega_lite_fertility_data.csv"
+    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/10_vega_lite_fertility_data1.csv"
   },
   "transform": [
     {"filter": "datum.Country === 'Singapore'"}
@@ -22,7 +22,7 @@
       "value": "red",
       "bind": {
         "input": "color",
-        "name": "Choose color:"
+        "name": "Choose colour:"
       }
     }
   ],
