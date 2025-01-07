@@ -18,7 +18,7 @@
             "scale": {"domain": [0, 7]}
           },
           "color": {
-            "value": "blue"  // Static color, no legend generated
+            "value": "blue"
           },
           "tooltip": [
             {
