@@ -32,7 +32,7 @@
     <p style="margin-top: 0px; color: darkblue">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
         Grant Benton | <a href="https://www.linkedin.com/in/williamgrantbenton">Linkedin</a> |
-            <a href="https://grantbenton.github.io">GitHub</a> |
+            <a href="https://github.com/GrantBenton/GrantBenton.github.io">GitHub</a> |
     <a href="https://grantbenton.github.io/project">Project</a>
     </p>
 
@@ -45,7 +45,7 @@
         <div class="chart-description">
             <h2>Coding Challenge 1: Hosting. Display charts in your own site.</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Add two charts using the vegaembed function
+                Add two charts using the vegaembed function.
             </p>
         </div>
         <figure id="Location1"></figure>
@@ -68,12 +68,13 @@
             <h2>Coding Challenge 3: Building. Create your own visualisations</h2>
             <p>
                 In the next two graphs, I connect Britain's productivity challenges and sustainability output. Slower adoption of robotics contrasts with rapid renewable energy adoption and growth, particularly in wind and solar since 2000. Renewable energy growth could enhance productivity by reducing energy costs and fostering innovation.
-
             </p>
         </div>
         <figure id="diffusion"></figure>
+        <p class="citation">Data sourced from <a href="https://www.nber.org/research/data/historical-cross-country-technology-adoption-hccta-dataset" target="_blank">NBER Dataset</a> and <a href="https://www.energyinst.org/statistical-review" target="_blank">Energy Institute Statistical Review</a>. Inspired by <a href="https://ourworldindata.org/grapher/modern-renewable-energy-consumption" target="_blank">Our World in Data</a>.</p>
         <figure id="renewable"></figure>
     </section>
+
 
     <section>
         <div class="chart-description">
@@ -90,104 +91,109 @@
 
     <section>
         <div class="chart-description">
-            <h2>Coding Challenge 5: Building. Create your own visualisations</h2>
-            <p>
-                I choose the UNESCO Heritage Sites because it is interesting to see their count numnber thoughout all the countries. 
-            </p>
+                <h2>Coding Challenge 5: Building. Create your own visualisations</h2>
+                <p>
+                    I chose the UNESCO Heritage Sites because it is interesting to see their count number throughout all the countries.
+                </p>
         </div>
-        <figure id="unesco"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            <figure id="unesco"></figure>
+            <p class="citation">Data sourced from <a href="https://whc.unesco.org/en/list/" target="_blank">UNESCO World Heritage Site List</a>.</p>
     </section>
-
-    <section>
-        <div class="chart-description">
-            <h2>Coding Challenge 6: </h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Incomplete
-            </p>
-        </div>
-    </section>
-
-    <section>
-        <div class="chart-description">
-            <h2>Coding Challenge 7:</h2>
-            <p>
-            </p>
-        </div>
-        <figure id="borders"></figure>
-        <figure id="lights"></figure>
-    </section>
-
-    <section>
-        <div class="chart-description">
-            <h2>Coding Challenge 8: Analytics charts</h2>
-            <p>
-            </p>
-        </div>
-        <figure id='hungary_non_project'></figure> 
-        <figure id='singapore_non_project'></figure> 
-    </section>
-
-    <section>
-        <div class="chart-description">
-            <h2>Coding Challenge 9: Big Data</h2>
-            <p> The Long Run Prices Database (LRPD) was cleaned by removing missing values and aggregating data into monthly averages. The 09_item_weights.json histogram shows the frequency distribution of item weights. The 09_region_trend.json line chart highlights average price trends over months, comparing annual variations for each year to observe seasonal and monthly patterns.
-            </p>
-        </div>
-        <figure id="region_trend"></figure> 
-        <figure id="item_weights"></figure> 
-    </section>
-
-    <section>
-        <div class="chart-description">
-            <h2>Coding Challenge 10: Option 2. Interactive Visualisations</h2>
-            <p> </p>
-        </div>
-        <figure id="crop"></figure> 
-        <figure id="color"></figure>
-    </section>
-
-    <!-- Do you want to add more sections? -->
-        <!-- Try copying pasting the section above -->
-        <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
-        <!-- ... and add a new variable for the graph spec in the script at the bottom of the page -->
-
-
-    <!-- This is a script, it's a way to run JavaScript code on the page -->
-    <script>
-        // This is a comment in JavaScript - it's a different language to HTML and CSS
-
-        let figure_1_spec = "01_declining_pop.json"   
-        let figure_2_spec = "01_football.json"
-
-        vegaEmbed('#Location1', figure_1_spec);
-        vegaEmbed('#Location2', figure_2_spec);
-
-        vegaEmbed('#wine', "02_wine_chart.json");
-        vegaEmbed("#vice_spending", "02_vice_spending.json");
-
-        vegaEmbed('#diffusion', "03_technology_diffusion.json");
-        vegaEmbed('#renewable', "03_renewable_consumption.json");
-
-        vegaEmbed('#better_graph', "04_better_graph.json");
-
-        vegaEmbed('#unesco',"05_unesco_treemap.json");
-
-        vegaEmbed('#borders', "07_egypt_map_final.json");
-        vegaEmbed('#lights', "07_egypt_lights.json");
-
-
-        vegaEmbed('#hungary_non_project', "08_Stacked_Area_Chart_Hungary.json");
-        vegaEmbed('#singapore_non_project', "08_Stacked_Area_Chart_Singapore.json");
-
-        vegaEmbed('#region_trend', "09_region_trend.json");
-        vegaEmbed('#item_weights', "09_item_weights.json");
-        
-        vegaEmbed('#crop',"10_Crop_Yield.json");
-        vegaEmbed('#color', "10_Colour_Fertility.json");
-
-
-    </script>
-
-</body>
     
+    <section>
+            <div class="chart-description">
+                <h2>Coding Challenge 6:</h2>
+                <p>
+                    Incomplete
+                </p>
+            </div>
+    </section>
+    
+    <section>
+            <div class="chart-description">
+                <h2>Coding Challenge 7:</h2>
+            </div>
+            <figure id="borders"></figure>
+            <figure id="lights"></figure>
+            <p class="citation">Data sourced from <a href="https://gadm.org/download_country.html#google_vignette" target="_blank">GADM</a> and <a href="https://www.earthdata.nasa.gov/data/catalog/sedac-ciesin-sedac-sdei-vdl-1.00" target="_blank">NASA Earth Data</a>.</p>
+    </section>
+    
+    <section>
+            <div class="chart-description">
+                <h2>Coding Challenge 8: Analytics charts</h2>
+                <p></p>
+            </div>
+            <figure id="hungary_non_project"></figure>
+            <figure id="singapore_non_project"></figure>
+            <p class="citation">Data sourced from <a href="https://population.un.org/dataportal/data/indicators/46/locations/348,702/start/1950/end/" target="_blank">UN Population Division</a>.</p>
+    </section>
+    
+    <section>
+            <div class="chart-description">
+                <h2>Coding Challenge 9: Big Data</h2>
+                <p>
+                    The Long Run Prices Database (LRPD) was cleaned by removing missing values and aggregating data into monthly averages.
+                </p>
+            </div>
+            <figure id="region_trend"></figure>
+            <figure id="item_weights"></figure>
+            <p class="citation">Data sourced from <a href="https://richarddavies.io/prices/" target="_blank">Long Run Prices Database (LRPD) by Davies, 2021</a>.</p>
+    </section>
+    
+    <section>
+            <div class="chart-description">
+                <h2>Coding Challenge 10: Option 2. Interactive Visualisations</h2>
+            </div>
+            <figure id="crop"></figure>
+            <p class="citation">Data sourced from <a href="https://www.fao.org/faostat/en/#data/QCL" target="_blank">FAO Statistics</a>. Crop yield graph inspired by <a href="https://ourworldindata.org/grapher/key-crop-yields" target="_blank">Our World in Data</a>.</p>
+            <figure id="color"></figure>
+            <p class="citation">Data sourced from <a href="https://population.un.org/dataportal/data/indicators/46/locations/348,702/start/1950/end/" target="_blank">UN Population Division</a>.</p>
+    </section>
+    
+    <section>
+            <h2>Work Cited</h2>
+            <ul>
+                <li><a href="https://www.nber.org/research/data/historical-cross-country-technology-adoption-hccta-dataset" target="_blank">NBER Dataset</a></li>
+                <li><a href="https://www.energyinst.org/statisticalreview2024" target="_blank">Energy Institute Statistical Review 2024</a></li>
+                <li><a href="https://ourworldindata.org/grapher/modern-renewable-energy-consumption" target="_blank">Our World in Data</a></li>
+                <li><a href="https://whc.unesco.org/en/list/" target="_blank">UNESCO World Heritage Site List</a></li>
+                <li><a href="https://gadm.org/download_country.html#google_vignette" target="_blank">GADM</a></li>
+                <li><a href="https://www.earthdata.nasa.gov/data/catalog/sedac-ciesin-sedac-sdei-vdl-1.00" target="_blank">NASA Earth Data</a></li>
+                <li><a href="https://population.un.org/dataportal/data/indicators/46/locations/348,702/start/1950/end/" target="_blank">UN Population Division</a></li>
+                <li><a href="https://richarddavies.io/prices/" target="_blank">Long Run Prices Database (LRPD) by Davies, 2021</a></li>
+                <li><a href="https://www.fao.org/faostat/en/#data/QCL" target="_blank">FAO Statistics</a></li>
+                <li><a href="https://ourworldindata.org/grapher/key-crop-yields" target="_blank">Our World in Data</a></li>
+            </ul>
+    </section>
+    
+    <script>
+            let figure_1_spec = "01_declining_pop.json";
+            let figure_2_spec = "01_football.json";
+    
+            vegaEmbed('#Location1', figure_1_spec);
+            vegaEmbed('#Location2', figure_2_spec);
+    
+            vegaEmbed('#wine', "02_wine_chart.json");
+            vegaEmbed("#vice_spending", "02_vice_spending.json");
+    
+            vegaEmbed('#diffusion', "03_technology_diffusion.json");
+            vegaEmbed('#renewable', "03_renewable_consumption.json");
+    
+            vegaEmbed('#better_graph', "04_better_graph.json");
+            vegaEmbed('#unesco', "05_unesco_treemap.json");
+    
+            vegaEmbed('#borders', "07_egypt_map_final.json");
+            vegaEmbed('#lights', "07_egypt_lights.json");
+    
+            vegaEmbed('#hungary_non_project', "08_Stacked_Area_Chart_Hungary.json");
+            vegaEmbed('#singapore_non_project', "08_Stacked_Area_Chart_Singapore.json");
+    
+            vegaEmbed('#region_trend', "09_region_trend.json");
+            vegaEmbed('#item_weights', "09_item_weights.json");
+    
+            vegaEmbed('#crop', "10_Crop_Yield.json");
+            vegaEmbed('#color', "10_Colour_Fertility.json");
+    </script>
+</body>
 </html>
+    
