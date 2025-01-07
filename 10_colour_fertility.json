@@ -1,0 +1,50 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Fertility Rate in Singapore (1950-2023)",
+    "subtitle": "Source: UN Population Division",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 400,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/GrantBenton/GrantBenton.github.io/refs/heads/main/vega_lite_fertility_data.csv"
+  },
+  "transform": [
+    {"filter": "datum.Country === 'Singapore'"}
+  ],
+  "params": [
+    {
+      "name": "colourPick",
+      "value": "red",
+      "bind": {
+        "input": "color",
+        "name": "Choose color:"
+      }
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "color": {"expr": "colourPick"},
+    "strokeWidth": 2
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "Fertility_Rate",
+      "type": "quantitative",
+      "title": "Fertility Rate"
+    }
+  },
+  "config": {
+    "view": {"stroke": "transparent"},
+    "title": {"fontSize": 16}
+  }
+}
